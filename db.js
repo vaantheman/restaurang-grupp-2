@@ -39,7 +39,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Memphis, TN',
-		cats: ['bbqs', 'porks', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'porks', 'our-foods'],
 	},
 	{
 		id: 'whole-brisket-texas-bbq-sauce',
@@ -79,7 +79,7 @@ const db = [
 		price: 109,
 		rate: 4,
 		country: 'Memphis, TN',
-		cats: ['bbqs', 'porks', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'porks', 'our-foods'],
 	},
 	{
 		id: 'mini-trinity-bbq-combo-brisket-ribs-and-links',
@@ -99,7 +99,7 @@ const db = [
 		price: 129,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['bbqs', 'fried-chicken', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'fried-chicken', 'our-foods'],
 	},
 	{
 		id: 'whole-brisket-sausage-texas-barbecue-bbq-sauce',
@@ -189,14 +189,7 @@ const db = [
 		price: 69.99,
 		rate: 4,
 		country: 'Kansas City, KS',
-		cats: [
-			'bbqs',
-			'porks',
-			'sausages',
-			'our-foods',
-			'our-foods',
-			'our-foods',
-		],
+		cats: ['bbqs', 'porks', 'sausages', 'our-foods'],
 	},
 	{
 		id: 'bbq-rib-tips-serves-10-15',
@@ -256,7 +249,7 @@ const db = [
 		price: 129,
 		rate: 5,
 		country: 'Syracuse, NY',
-		cats: ['bbqs', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'our-foods'],
 	},
 	{
 		id: 'half-texas-smoked-brisket',
@@ -306,7 +299,7 @@ const db = [
 		price: 165,
 		rate: 4,
 		country: 'Buffalo Gap, TX',
-		cats: ['bbqs', 'steaks', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'steaks', 'our-foods'],
 	},
 	{
 		id: '20154-bacon-wrapped-cheddar-jalapeno-sausage-slammers',
@@ -316,7 +309,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Elgin, TX',
-		cats: ['bbqs', 'sausages', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'sausages', 'our-foods'],
 	},
 	{
 		id: 'bbq-ribs-and-pulled-pork-dinner-for-8',
@@ -356,7 +349,7 @@ const db = [
 		price: 79,
 		rate: 5,
 		country: 'Flavortown, USA',
-		cats: ['bbqs', 'porks', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'porks', 'our-foods'],
 	},
 	{
 		id: 'legendary-brisket-z-man-sandwich-kit-8-pack',
@@ -366,7 +359,7 @@ const db = [
 		price: 99.99,
 		rate: 5,
 		country: 'Kansas City, KS',
-		cats: ['bbqs', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: '16124-pork-bbq-pie',
@@ -506,7 +499,7 @@ const db = [
 		price: 89,
 		rate: 4,
 		country: 'Austin, TX',
-		cats: ['bbqs', 'sausages', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'sausages', 'our-foods'],
 	},
 	{
 		id: 'the-presidential-smoked-meat-sampler',
@@ -516,7 +509,7 @@ const db = [
 		price: 219,
 		rate: 5,
 		country: 'San Francisco, CA',
-		cats: ['bbqs', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'our-foods'],
 	},
 	{
 		id: 'smoked-whole-bbq-pork-shoulder-serves-10-15',
@@ -526,7 +519,7 @@ const db = [
 		price: 129,
 		rate: 4,
 		country: 'Los Angeles, CA',
-		cats: ['bbqs', 'porks', 'our-foods', 'our-foods'],
+		cats: ['bbqs', 'porks', 'our-foods'],
 	},
 	{
 		id: 'pitmaster-bbq-brisket-pulled-pork-sandwich-kit-for-6-8',
@@ -1506,7 +1499,7 @@ const db = [
 		price: 49.95,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['breads', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['breads', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'signature-garlic-bread-with-sauces-for-4-6',
@@ -1586,14 +1579,7 @@ const db = [
 		price: 49.95,
 		rate: 4,
 		country: 'New York, NY',
-		cats: [
-			'breads',
-			'chocolates',
-			'desserts',
-			'our-foods',
-			'our-foods',
-			'our-foods',
-		],
+		cats: ['breads', 'chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'pretzel-challah-3-pack',
@@ -1653,14 +1639,7 @@ const db = [
 		price: 59,
 		rate: 4,
 		country: 'Brooklyn, NY',
-		cats: [
-			'breads',
-			'chocolates',
-			'desserts',
-			'our-foods',
-			'our-foods',
-			'our-foods',
-		],
+		cats: ['breads', 'chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'bestselling-banana-bread-6-pack',
@@ -1840,7 +1819,7 @@ const db = [
 		price: 175.95,
 		rate: 4,
 		country: 'Brooklyn, NY',
-		cats: ['burgers', 'steaks', 'our-foods', 'our-foods'],
+		cats: ['burgers', 'steaks', 'our-foods'],
 	},
 	{
 		id: 'burger-bomb-kit-for-6',
@@ -2100,7 +2079,7 @@ const db = [
 		price: 135,
 		rate: 5,
 		country: 'North Bergen, NJ',
-		cats: ['burgers', 'steaks', 'our-foods', 'our-foods'],
+		cats: ['burgers', 'steaks', 'our-foods'],
 	},
 	{
 		id: 'hall-signature-wagyu-burger-kit-8-pack',
@@ -2380,7 +2359,7 @@ const db = [
 		price: 39.95,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'milk-chocolate-turtle-gophers-gift-box-of-24',
@@ -2410,7 +2389,7 @@ const db = [
 		price: 39.99,
 		rate: 4,
 		country: 'Dayton, OH',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'dark-chocolate-truffle-collection-16-pieces',
@@ -2430,7 +2409,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Oakland, CA',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'k-m-chocolate-sampler-gift-box',
@@ -2460,7 +2439,7 @@ const db = [
 		price: 65,
 		rate: 4,
 		country: 'Brooklyn, NY',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'double-chocolate-cake',
@@ -2560,7 +2539,7 @@ const db = [
 		price: 49,
 		rate: 4,
 		country: 'Nanuet, NY',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'the-boys-chocolate-pizza-3-pack',
@@ -2720,7 +2699,7 @@ const db = [
 		price: 69.95,
 		rate: 5,
 		country: 'New York, NY',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'chocolate-rads-4-pack',
@@ -2820,7 +2799,7 @@ const db = [
 		price: 104.99,
 		rate: 4,
 		country: 'Chicago, IL',
-		cats: ['chocolates', 'pizzas', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'pizzas', 'our-foods'],
 	},
 	{
 		id: 'chocolate-marshmallows',
@@ -2830,7 +2809,7 @@ const db = [
 		price: 25,
 		rate: 5,
 		country: 'Nashville, TN',
-		cats: ['chocolates', 'desserts', 'our-foods', 'our-foods'],
+		cats: ['chocolates', 'desserts', 'our-foods'],
 	},
 	{
 		id: 'chocolate-peanut-butter-smith-island-cake',
@@ -2980,7 +2959,7 @@ const db = [
 		price: 69,
 		rate: 5,
 		country: 'Brooklyn, NY',
-		cats: ['desserts', 'ice-cream', 'our-foods', 'our-foods'],
+		cats: ['desserts', 'ice-cream', 'our-foods'],
 	},
 	{
 		id: '17481-jewish-dessert-3-pack',
@@ -3040,7 +3019,7 @@ const db = [
 		price: 79.95,
 		rate: 4,
 		country: 'Cincinnati, OH',
-		cats: ['desserts', 'ice-cream', 'our-foods', 'our-foods'],
+		cats: ['desserts', 'ice-cream', 'our-foods'],
 	},
 	{
 		id: 'candy-cookie-cheesecake-sampler',
@@ -3120,7 +3099,7 @@ const db = [
 		price: 75,
 		rate: 5,
 		country: 'Richmond, VA',
-		cats: ['desserts', 'ice-cream', 'our-foods', 'our-foods'],
+		cats: ['desserts', 'ice-cream', 'our-foods'],
 	},
 	{
 		id: 'cinnamon-roll-cheesecake',
@@ -3140,7 +3119,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Wilmington, NC',
-		cats: ['desserts', 'ice-cream', 'our-foods', 'our-foods'],
+		cats: ['desserts', 'ice-cream', 'our-foods'],
 	},
 	{
 		id: 'banana-pudding-sampler-4-pack',
@@ -3220,7 +3199,7 @@ const db = [
 		price: 99,
 		rate: 5,
 		country: 'New York, NY',
-		cats: ['desserts', 'ice-cream', 'our-foods', 'our-foods'],
+		cats: ['desserts', 'ice-cream', 'our-foods'],
 	},
 	{
 		id: 'cheesecake-macarons-12-pack',
@@ -3750,7 +3729,7 @@ const db = [
 		price: 109,
 		rate: 4,
 		country: 'Chapel Hill, NC',
-		cats: ['fried-chicken', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['fried-chicken', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: 'nashville-hot-chicken-family-meal-for-4',
@@ -3810,7 +3789,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Las Vegas, NV',
-		cats: ['fried-chicken', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['fried-chicken', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: 'picnic-chicken-sandwich-kit-for-4',
@@ -4150,7 +4129,7 @@ const db = [
 		price: 69,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['fried-chicken', 'sausages', 'our-foods', 'our-foods'],
+		cats: ['fried-chicken', 'sausages', 'our-foods'],
 	},
 	{
 		id: 'hot-mess-sandwich-kit-for-6',
@@ -4950,7 +4929,7 @@ const db = [
 		price: 99,
 		rate: 5,
 		country: 'Philadelphia, PA',
-		cats: ['porks', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['porks', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: 'double-bone-in-heritage-berkshire-pork-chops-4-pack',
@@ -4980,7 +4959,7 @@ const db = [
 		price: 128.99,
 		rate: 4,
 		country: 'Kansas City, KS',
-		cats: ['porks', 'our-foods', 'our-foods'],
+		cats: ['porks', 'our-foods'],
 	},
 	{
 		id: '16561-snake-river-farms-kurobuta-pork-belly',
@@ -5020,7 +4999,7 @@ const db = [
 		price: 79,
 		rate: 5,
 		country: 'Huntington, IN',
-		cats: ['porks', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['porks', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: 'roast-pork-sandwich-kit-for-8',
@@ -5070,7 +5049,7 @@ const db = [
 		price: 89,
 		rate: 4,
 		country: 'Kinston, NC',
-		cats: ['porks', 'sandwiches', 'our-foods', 'our-foods'],
+		cats: ['porks', 'sandwiches', 'our-foods'],
 	},
 	{
 		id: 'stone-porter-beer-pork-chops-4-pack',
@@ -5290,7 +5269,7 @@ const db = [
 		price: 79,
 		rate: 4,
 		country: 'Smithfield, NC',
-		cats: ['porks', 'our-foods', 'our-foods'],
+		cats: ['porks', 'our-foods'],
 	},
 	{
 		id: 'pork-ribeye-shabu-shabu-kit-for-4',
@@ -5400,7 +5379,7 @@ const db = [
 		price: 79,
 		rate: 5,
 		country: 'Ocean Springs, MS',
-		cats: ['porks', 'sausages', 'our-foods', 'our-foods'],
+		cats: ['porks', 'sausages', 'our-foods'],
 	},
 	{
 		id: 'dry-rub-ribs-and-pulled-pork-dinner-for-8',
@@ -5650,7 +5629,7 @@ const db = [
 		price: 99,
 		rate: 5,
 		country: 'Philadelphia, PA',
-		cats: ['sandwiches', 'steaks', 'our-foods', 'our-foods'],
+		cats: ['sandwiches', 'steaks', 'our-foods'],
 	},
 	{
 		id: '23699-meatball-sandwich-kit-6-pack',
@@ -5860,7 +5839,7 @@ const db = [
 		price: 99,
 		rate: 4,
 		country: 'Philadelphia, PA',
-		cats: ['sandwiches', 'steaks', 'our-foods', 'our-foods'],
+		cats: ['sandwiches', 'steaks', 'our-foods'],
 	},
 	{
 		id: 'walters-hot-dog-kit-12-pack',
