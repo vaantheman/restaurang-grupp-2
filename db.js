@@ -35,6 +35,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '005-kings-carolina-oink-sampler',
@@ -45,6 +46,7 @@ export const db = [
 		rate: 4,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'texas-monthlys-1-bbq-brisket',
@@ -55,6 +57,7 @@ export const db = [
 		rate: 4,
 		country: 'Lexington, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '17352-ribs-and-pulled-pork-small-combo-pack',
@@ -65,6 +68,7 @@ export const db = [
 		rate: 4,
 		country: 'Memphis, TN',
 		cats: ['bbqs', 'porks'],
+		featured: false,
 	},
 	{
 		id: 'whole-brisket-texas-bbq-sauce',
@@ -75,6 +79,7 @@ export const db = [
 		rate: 4,
 		country: 'Austin, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'whole-texas-smoked-brisket',
@@ -85,16 +90,7 @@ export const db = [
 		rate: 5,
 		country: 'Austin, TX',
 		cats: ['bbqs'],
-	},
-	{
-		id: 'barbeque-Sampler-for-8',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110287/barbeque-sampler-for-4-6.edb4e60564852c9d0227634c31fab279.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Arthur Bryant's Barbeque",
-		dsc: 'Barbeque Sampler for 8',
-		price: 139,
-		rate: 5,
-		country: 'Kansas City, MO',
-		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '17352-ribs-and-pulled-pork-medium-combo-pack',
@@ -105,6 +101,7 @@ export const db = [
 		rate: 4,
 		country: 'Memphis, TN',
 		cats: ['bbqs', 'porks'],
+		featured: false,
 	},
 	{
 		id: 'mini-trinity-bbq-combo-brisket-ribs-and-links',
@@ -115,6 +112,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo',
@@ -125,6 +123,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['bbqs', 'fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'whole-brisket-sausage-texas-barbecue-bbq-sauce',
@@ -135,6 +134,7 @@ export const db = [
 		rate: 5,
 		country: 'Austin, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '006-kings-meat-lovers-special',
@@ -145,6 +145,7 @@ export const db = [
 		rate: 5,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'the-big-ugly-bbq-dinner-for-6',
@@ -155,6 +156,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '17796-mighty-quinns-bbq-sampler-pack',
@@ -165,6 +167,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'post-oak-smoked-half-brisket',
@@ -175,6 +178,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'best-of-texas-bbq-combo-serves-14',
@@ -185,6 +189,7 @@ export const db = [
 		rate: 5,
 		country: 'Lexington, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-world-championship-bbq-4-pack',
@@ -195,6 +200,7 @@ export const db = [
 		rate: 4,
 		country: 'Decatur, AL',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-ribs-and-pulled-pork-dinner-for-6',
@@ -205,6 +211,7 @@ export const db = [
 		rate: 5,
 		country: 'Ocean Springs, MS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'hog-heaven',
@@ -215,6 +222,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['bbqs', 'porks', 'sausages'],
+		featured: false,
 	},
 	{
 		id: 'bbq-rib-tips-serves-10-15',
@@ -225,6 +233,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'texas-sized-smoked-beef-ribs',
@@ -235,6 +244,7 @@ export const db = [
 		rate: 5,
 		country: 'Austin, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'just-the-meat-bbq-faves',
@@ -245,6 +255,7 @@ export const db = [
 		rate: 4,
 		country: 'Minneapolis, MN',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'guys-bbq-trash-can-nachos-caliente-margaritas',
@@ -255,6 +266,7 @@ export const db = [
 		rate: 5,
 		country: 'Flavortown, USA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-sides-4-pack',
@@ -265,6 +277,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'ribs-and-chicken-combo-pack-serves-6-8',
@@ -275,6 +288,7 @@ export const db = [
 		rate: 5,
 		country: 'Syracuse, NY',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'half-texas-smoked-brisket',
@@ -285,6 +299,7 @@ export const db = [
 		rate: 4,
 		country: 'Blanco, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-meat-and-sides-feast-serves-15',
@@ -295,6 +310,7 @@ export const db = [
 		rate: 4,
 		country: 'Austin, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-world-championship-bbq-2-pack',
@@ -305,6 +321,7 @@ export const db = [
 		rate: 5,
 		country: 'Decatur, AL',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '18650-food-explorer-carolina-bbq-pack',
@@ -315,6 +332,7 @@ export const db = [
 		rate: 5,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'mesquite-smoked-peppered-beef-tenderloin',
@@ -325,6 +343,7 @@ export const db = [
 		rate: 4,
 		country: 'Buffalo Gap, TX',
 		cats: ['bbqs', 'steaks'],
+		featured: false,
 	},
 	{
 		id: '20154-bacon-wrapped-cheddar-jalapeno-sausage-slammers',
@@ -335,6 +354,7 @@ export const db = [
 		rate: 4,
 		country: 'Elgin, TX',
 		cats: ['bbqs', 'sausages'],
+		featured: false,
 	},
 	{
 		id: 'bbq-ribs-and-pulled-pork-dinner-for-8',
@@ -345,6 +365,7 @@ export const db = [
 		rate: 4,
 		country: 'Ocean Springs, MS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'pit-smoked-bbq-ham',
@@ -355,6 +376,7 @@ export const db = [
 		rate: 4,
 		country: 'Ocean Springs, MS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'ribs-and-pulled-pork-combo-for-4',
@@ -365,6 +387,7 @@ export const db = [
 		rate: 5,
 		country: 'Horn Lake, MS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'guys-bbq-pulled-pork-trash-can-nachos',
@@ -375,6 +398,7 @@ export const db = [
 		rate: 5,
 		country: 'Flavortown, USA',
 		cats: ['bbqs', 'porks'],
+		featured: false,
 	},
 	{
 		id: 'legendary-brisket-z-man-sandwich-kit-8-pack',
@@ -385,6 +409,7 @@ export const db = [
 		rate: 5,
 		country: 'Kansas City, KS',
 		cats: ['bbqs', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: '16124-pork-bbq-pie',
@@ -395,6 +420,7 @@ export const db = [
 		rate: 4,
 		country: 'Baltimore, MD',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '17358-rubs-and-sauces-choose-your-own-3-pack',
@@ -405,6 +431,7 @@ export const db = [
 		rate: 4,
 		country: 'Memphis, TN',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'kc-bbq-sampler',
@@ -415,16 +442,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['bbqs'],
-	},
-	{
-		id: 'backyard-bbq-picnic-for-4-6',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134212/backyard-bbq-picnic-for-6.2be8d9286f622c9cfe873c6b728b3175.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Blue Smoke',
-		dsc: 'Backyard BBQ Picnic for 6',
-		price: 239,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '007-kings-pig-out-party-pack',
@@ -435,6 +453,7 @@ export const db = [
 		rate: 5,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'smoked-whole-bbq-brisket-serves-15-20',
@@ -445,6 +464,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'unconventional-texas-bbq-sampler-for-4-6',
@@ -454,7 +474,8 @@ export const db = [
 		price: 119,
 		rate: 4,
 		country: 'Houston, TX',
-		cats: ['bbqs', 'best-foods'],
+		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-pork-spare-ribs-2-racks',
@@ -465,6 +486,7 @@ export const db = [
 		rate: 5,
 		country: 'Lexington, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '15048-best-sellers-bbq-buffet-pack',
@@ -475,16 +497,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, MO',
 		cats: ['bbqs'],
-	},
-	{
-		id: 'barbeque-assortment-for-12-16',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132527/barbeque-feast-for-8-12.33d57b4d33aee93b40c12c876061b0a6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Arthur Bryant's Barbeque",
-		dsc: 'Barbeque Sampler for 12-16',
-		price: 239,
-		rate: 5,
-		country: 'Kansas City, MO',
-		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'half-pit-smoked-pastrami-brisket-3-lbs',
@@ -495,6 +508,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '15317-kings-bbq-pork-ribs-4-racks',
@@ -505,6 +519,7 @@ export const db = [
 		rate: 4,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-ribs-2-slabs',
@@ -515,6 +530,7 @@ export const db = [
 		rate: 5,
 		country: 'Horn Lake, MS',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'original-texas-smoked-sausage',
@@ -525,6 +541,7 @@ export const db = [
 		rate: 4,
 		country: 'Austin, TX',
 		cats: ['bbqs', 'sausages'],
+		featured: false,
 	},
 	{
 		id: 'the-presidential-smoked-meat-sampler',
@@ -535,6 +552,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'smoked-whole-bbq-pork-shoulder-serves-10-15',
@@ -545,6 +563,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['bbqs', 'porks'],
+		featured: false,
 	},
 	{
 		id: 'pitmaster-bbq-brisket-pulled-pork-sandwich-kit-for-6-8',
@@ -555,6 +574,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bbq-dinner-for-4-6',
@@ -565,6 +585,7 @@ export const db = [
 		rate: 4,
 		country: 'Bee Cave, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'slow-smoked-bbq-ribs-dinner',
@@ -575,6 +596,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'junior-smoked-meat-sampler',
@@ -585,6 +607,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'texas-smoked-brisket',
@@ -595,6 +618,7 @@ export const db = [
 		rate: 4,
 		country: 'Blanco, TX',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'memphis-style-bbq-ribs-4-slabs',
@@ -605,6 +629,7 @@ export const db = [
 		rate: 5,
 		country: 'Murphsboro, IL',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: '001-kings-hand-chopped-pork-bbq',
@@ -615,6 +640,7 @@ export const db = [
 		rate: 5,
 		country: 'Kinston, NC',
 		cats: ['bbqs'],
+		featured: false,
 	},
 	{
 		id: 'bo-ssam-dinner-for-4-6',
@@ -624,7 +650,8 @@ export const db = [
 		price: 169,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'porks'],
+		cats: ['porks'],
+		featured: true,
 	},
 	{
 		id: 'the-gramercy-tavern-burger-4-pack',
@@ -634,7 +661,8 @@ export const db = [
 		price: 99,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'burgers'],
+		cats: ['burgers'],
+		featured: true,
 	},
 	{
 		id: 'the-coop-complete-fried-chicken-dinner-for-4',
@@ -644,7 +672,8 @@ export const db = [
 		price: 119,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'pork-buns-12-pack',
@@ -654,7 +683,8 @@ export const db = [
 		price: 119,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'porks'],
+		cats: ['porks'],
+		featured: true,
 	},
 	{
 		id: 'hot-honey-chicken-and-cornbread-waffles-for-2',
@@ -664,7 +694,8 @@ export const db = [
 		price: 99,
 		rate: 5,
 		country: 'Harlem, NY',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'wood-fired-pizzas-best-seller-4-pack',
@@ -674,7 +705,8 @@ export const db = [
 		price: 129,
 		rate: 5,
 		country: 'Phoenix, AZ',
-		cats: ['best-foods', 'pizzas'],
+		cats: ['pizzas'],
+		featured: true,
 	},
 	{
 		id: 'mac-and-cheese-chicken-pot-pie-combo-for-4',
@@ -684,7 +716,8 @@ export const db = [
 		price: 129,
 		rate: 4,
 		country: 'Los Angeles, CA',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'prime-galbi-steak-feast-for-4',
@@ -694,7 +727,8 @@ export const db = [
 		price: 249,
 		rate: 5,
 		country: 'New York, NY',
-		cats: ['best-foods', 'steaks'],
+		cats: ['steaks'],
+		featured: true,
 	},
 	{
 		id: 'dry-aged-boneless-ribeye-steak-dinner-kit-for-4',
@@ -704,7 +738,8 @@ export const db = [
 		price: 225,
 		rate: 4,
 		country: 'Patagonia, Argentina',
-		cats: ['best-foods', 'steaks'],
+		cats: ['steaks'],
+		featured: true,
 	},
 	{
 		id: 'wood-fired-pizza-choose-your-own-4-pack',
@@ -714,7 +749,8 @@ export const db = [
 		price: 135,
 		rate: 4,
 		country: 'Phoenix, AZ',
-		cats: ['best-foods', 'pizzas'],
+		cats: ['pizzas'],
+		featured: true,
 	},
 	{
 		id: 'marcus-hot-fried-chicken-wings-for-2',
@@ -724,7 +760,8 @@ export const db = [
 		price: 99,
 		rate: 5,
 		country: 'Harlem, NY',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'burger-au-poivre-kit-4-pack',
@@ -734,7 +771,8 @@ export const db = [
 		price: 99,
 		rate: 5,
 		country: 'New York, NY',
-		cats: ['best-foods', 'burgers'],
+		cats: ['burgers'],
+		featured: true,
 	},
 	{
 		id: 'neapolitan-pizza-choose-your-own-4-pack',
@@ -744,7 +782,8 @@ export const db = [
 		price: 119,
 		rate: 4,
 		country: 'San Francisco, CA',
-		cats: ['best-foods', 'pizzas'],
+		cats: ['pizzas'],
+		featured: true,
 	},
 	{
 		id: 'double-stack-burger-kit-for-4',
@@ -754,7 +793,8 @@ export const db = [
 		price: 79,
 		rate: 5,
 		country: 'Atlanta, GA',
-		cats: ['best-foods', 'burgers'],
+		cats: ['burgers'],
+		featured: true,
 	},
 	{
 		id: 'chicken-jiaozi-dumplings-20-pack',
@@ -764,7 +804,8 @@ export const db = [
 		price: 69,
 		rate: 4,
 		country: 'Los Angeles, CA',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'neapolitan-pizza-choose-your-own-3-pack',
@@ -774,7 +815,8 @@ export const db = [
 		price: 99,
 		rate: 4,
 		country: 'San Francisco, CA',
-		cats: ['best-foods', 'pizzas'],
+		cats: ['pizzas'],
+		featured: true,
 	},
 	{
 		id: 'the-family-coop-complete-fried-chicken-dinner-for-8',
@@ -784,7 +826,8 @@ export const db = [
 		price: 189,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'fried-chicken'],
+		cats: ['fried-chicken'],
+		featured: true,
 	},
 	{
 		id: 'gramercy-tavern-burger-kielbasa-combo',
@@ -794,7 +837,8 @@ export const db = [
 		price: 149,
 		rate: 4,
 		country: 'New York, NY',
-		cats: ['best-foods', 'burgers'],
+		cats: ['burgers'],
+		featured: true,
 	},
 	{
 		id: 'taiwanese-style-pork-chop-dinner-kit-for-4',
@@ -804,7 +848,8 @@ export const db = [
 		price: 119,
 		rate: 5,
 		country: 'Los Angeles, CA',
-		cats: ['best-foods', 'porks'],
+		cats: ['porks'],
+		featured: true,
 	},
 	{
 		id: 'artisanal-bread-choose-your-own-3-pack',
@@ -815,16 +860,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['breads'],
-	},
-	{
-		id: 'artisanal-bread-choose-your-own-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132426/bread-choose-your-own-4-pack.78f96938f1a3a5bc6a7fefa564bf878c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Grateful Bread Company',
-		dsc: 'Artisanal Bread - Choose Your Own 4 Pack',
-		price: 59,
-		rate: 5,
-		country: 'Sacramento, CA',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'corn-cheese-bread-2-pack',
@@ -835,6 +871,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'tartine-bread-loaves-choose-your-own-2-pack',
@@ -845,6 +882,7 @@ export const db = [
 		rate: 4,
 		country: 'San Francisco, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'japanese-milk-bread',
@@ -855,6 +893,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'artisanal-bread-choose-your-own-6-pack',
@@ -865,6 +904,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '23572-artichoke-bread-sampler-4-pack',
@@ -875,6 +915,7 @@ export const db = [
 		rate: 4,
 		country: 'Pescadero, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'bavarian-soft-pretzel-twists-10-pack',
@@ -885,6 +926,7 @@ export const db = [
 		rate: 4,
 		country: 'Milwaukee, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'banana-bread-6-pack-choose-your-own',
@@ -895,6 +937,7 @@ export const db = [
 		rate: 5,
 		country: 'Lahaina, HI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'stuffed-bread-loaves-choose-your-own-2-pack',
@@ -905,6 +948,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '15277-hot-and-spicy-cheese-bread-2-pack',
@@ -915,16 +959,7 @@ export const db = [
 		rate: 4,
 		country: 'Madison, WI',
 		cats: ['breads'],
-	},
-	{
-		id: 'savory-bread-assortment-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/116300/savory-bread-assortment-4-pack.3f088d3d463da68582c2ea93a7c1d547.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Grateful Bread Company',
-		dsc: 'Savory Bread Assortment - 4 Pack',
-		price: 49,
-		rate: 4,
-		country: 'Sacramento, CA',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'classic-clam-chowder-and-bread-bowls-4-pack',
@@ -935,16 +970,7 @@ export const db = [
 		rate: 4,
 		country: 'San Francisco, CA',
 		cats: ['breads'],
-	},
-	{
-		id: 'bread-and-roses-care-package',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132930/bread-and-roses-care-package.c60ba288ef2a179a3d6da325d33ff402.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Bread and Roses Bakery',
-		dsc: 'Bread & Roses Care Package',
-		price: 59,
-		rate: 4,
-		country: 'Wells, ME',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-gourmet-breadsticks-16-pack',
@@ -955,6 +981,7 @@ export const db = [
 		rate: 4,
 		country: 'Castroville, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'babka-choose-your-own-2-pack',
@@ -965,6 +992,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'original-garlic-cream-cheese-bread-2-pack',
@@ -975,6 +1003,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'artisanal-bread-choose-your-own-2-pack',
@@ -985,6 +1014,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'artisanal-bread-best-sellers-3-pack',
@@ -995,6 +1025,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'italian-bread-2-loaves',
@@ -1005,6 +1036,7 @@ export const db = [
 		rate: 4,
 		country: 'Clarksburg, WV',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '24239-essa-bagel-bakers-dozen-kosher',
@@ -1015,6 +1047,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'pain-au-chocolat-8-pack',
@@ -1025,6 +1058,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-gourmet-breadsticks-15-lb-pack',
@@ -1035,6 +1069,7 @@ export const db = [
 		rate: 5,
 		country: 'Castroville, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'pretzel-lovers-combo-pack',
@@ -1045,6 +1080,7 @@ export const db = [
 		rate: 5,
 		country: 'Milwaukee, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'korean-cream-cheese-bread-combo-2-pack',
@@ -1055,6 +1091,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '15277-hot-and-spicy-cheese-bread-4-pack',
@@ -1065,6 +1102,7 @@ export const db = [
 		rate: 4,
 		country: 'Madison, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'bavarian-pretzel-buns-12-pack',
@@ -1075,6 +1113,7 @@ export const db = [
 		rate: 5,
 		country: 'Madison, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'scratch-made-raisin-bread',
@@ -1085,6 +1124,7 @@ export const db = [
 		rate: 5,
 		country: 'Ronks, PA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'tartine-bread-loaves-choose-your-own-4-pack',
@@ -1095,6 +1135,7 @@ export const db = [
 		rate: 4,
 		country: 'San Francisco, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '23572-pescadero-breads-sampler-4-pack',
@@ -1105,6 +1146,7 @@ export const db = [
 		rate: 5,
 		country: 'Pescadero, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'new-york-bagel-brunch-kit-for-6-sale',
@@ -1115,6 +1157,7 @@ export const db = [
 		rate: 5,
 		country: 'Queens, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '24011-breads-bakery-chocolate-babka-3-pack',
@@ -1125,6 +1168,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'signature-garlic-bread-with-sauces-for-4-6',
@@ -1135,6 +1179,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-gourmet-breadsticks-4-pack',
@@ -1145,16 +1190,7 @@ export const db = [
 		rate: 5,
 		country: 'Castroville, CA',
 		cats: ['breads'],
-	},
-	{
-		id: 'essa-bagel-bakers-dozen-kosher-buy-1-get-1-free',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/100871/essa-bagel-dozen-kosher-buy-1-get-1-free.9a369a3f64e48283b57e929a82a67565.png?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Ess-a-Bagel',
-		dsc: 'Ess-a-Bagel Dozen (Kosher) - BUY 1 GET 1 FREE',
-		price: 59.95,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'kosher-frozendorf-ready-to-bake-braided-challah-2-pack',
@@ -1165,6 +1201,7 @@ export const db = [
 		rate: 5,
 		country: 'Baltimore, MD',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '235721-choose-your-own-artichoke-bread-4-pack',
@@ -1175,6 +1212,7 @@ export const db = [
 		rate: 5,
 		country: 'Pescadero, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'zucchini-loaf-cake-2-pack',
@@ -1185,6 +1223,7 @@ export const db = [
 		rate: 5,
 		country: 'Lawrence Twp, NJ',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'bavarian-soft-pretzel-bites-100-pacl',
@@ -1195,6 +1234,7 @@ export const db = [
 		rate: 4,
 		country: 'Milwaukee, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '24011-chocolate-and-cinnamon-babka-3-pack',
@@ -1205,6 +1245,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads', 'chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'pretzel-challah-3-pack',
@@ -1215,6 +1256,7 @@ export const db = [
 		rate: 5,
 		country: 'Teaneck, NJ',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-bialy-bagel-dozen',
@@ -1225,6 +1267,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'hand-braided-baked-challah',
@@ -1235,6 +1278,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'fresh-butter-croissants-16-pack',
@@ -1245,6 +1289,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '23572-pesto-artichoke-bread-4-pack',
@@ -1255,26 +1300,7 @@ export const db = [
 		rate: 5,
 		country: 'Pescadero, CA',
 		cats: ['breads'],
-	},
-	{
-		id: 'double-chocolate-babka',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Oneg Bakery',
-		dsc: 'Double Chocolate Babka',
-		price: 59,
-		rate: 4,
-		country: 'Brooklyn, NY',
-		cats: ['breads', 'chocolates', 'desserts'],
-	},
-	{
-		id: 'bestselling-banana-bread-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99486/bestselling-mini-loaves-6-pack.c48bdbf6c2584b921841f50db863f438.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Maui Banana Bread Co',
-		dsc: 'Best Seller Banana Bread - 6 Pack',
-		price: 59,
-		rate: 4,
-		country: 'Lahaina, HI',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'sourdough-bread-assortment-4-pack',
@@ -1285,16 +1311,7 @@ export const db = [
 		rate: 5,
 		country: 'Sacramento, CA',
 		cats: ['breads'],
-	},
-	{
-		id: 'choose-your-own-bagel-2-dozen',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/100125/choose-your-own-bagel-2-dozen.2bff022a30852d49a00f049e23536b97.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'St-Viateur Bagel',
-		dsc: 'Choose Your Own Bagel 2 Dozen',
-		price: 49,
-		rate: 5,
-		country: 'Montreal, CN',
-		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'monster-cream-cheese-bread-2-pack',
@@ -1305,6 +1322,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '240146-loaf-cake-combo-3-pack',
@@ -1315,6 +1333,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'sourdough-bread-bowl-and-chowder-kit-for-4',
@@ -1325,6 +1344,7 @@ export const db = [
 		rate: 4,
 		country: 'Seattle, WA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: '23572-artichoke-garlic-herb-bread-4-pack',
@@ -1335,6 +1355,7 @@ export const db = [
 		rate: 5,
 		country: 'Pescadero, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-rye-breads-4-pack',
@@ -1345,6 +1366,7 @@ export const db = [
 		rate: 4,
 		country: 'Omaha, NE',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'wisconsin-spicy-cheese-bread',
@@ -1355,6 +1377,7 @@ export const db = [
 		rate: 4,
 		country: 'Suamico, WI',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'calic-bagel-assortment-dozen',
@@ -1365,6 +1388,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'lobster-roll-kit-and-wild-maine-blueberry-bread-pudding',
@@ -1375,6 +1399,7 @@ export const db = [
 		rate: 5,
 		country: 'South Thomaston, ME',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'loaf-cakes-choose-your-own-3-pack',
@@ -1385,6 +1410,7 @@ export const db = [
 		rate: 4,
 		country: 'Lawrence Twp, NJ',
 		cats: ['breads'],
+		featured: false,
 	},
 	{
 		id: 'shake-shack-shackburger-8-pack',
@@ -1395,6 +1421,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gotts-cheeseburger-kit-for-4',
@@ -1405,16 +1432,7 @@ export const db = [
 		rate: 5,
 		country: 'St. Helena, CA',
 		cats: ['burgers'],
-	},
-	{
-		id: 'le-big-matt-kit-for-6',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Emmy Squared',
-		dsc: 'Le Big Matt Burger Kit for 6',
-		price: 99,
-		rate: 5,
-		country: 'Brooklyn, NY',
-		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'shake-shack-shackburger-16-pack',
@@ -1425,6 +1443,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'wagyu-burger-patties-12-pack',
@@ -1435,6 +1454,7 @@ export const db = [
 		rate: 5,
 		country: 'Queensland, Australia',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: '21-usda-prime-burgers-pack-of-18-8oz-each',
@@ -1445,6 +1465,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['burgers', 'steaks'],
+		featured: false,
 	},
 	{
 		id: 'burger-bomb-kit-for-6',
@@ -1455,6 +1476,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'goldbelly-burger-bash-pack',
@@ -1465,6 +1487,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'goldbelly-burger-blend-4-lbs',
@@ -1475,6 +1498,7 @@ export const db = [
 		rate: 5,
 		country: 'San Rafael, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gotts-complete-cheeseburger-kit-for-8',
@@ -1485,6 +1509,7 @@ export const db = [
 		rate: 4,
 		country: 'St. Helena, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'classic-juicy-lucy-burgers-sweet-potato-puffs-4-pack',
@@ -1495,6 +1520,7 @@ export const db = [
 		rate: 5,
 		country: 'Minneapolis, MN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'juicy-lucy-burger-kit-5-pack',
@@ -1505,6 +1531,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'blue-aged-cheddar-jalapeno-burgers-6-pack',
@@ -1515,6 +1542,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'wagyu-burger-patties-6-pack',
@@ -1525,6 +1553,7 @@ export const db = [
 		rate: 5,
 		country: 'Queensland, Australia',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'american-wagyu-burger-party-pack',
@@ -1535,6 +1564,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'best-damn-cheeseburger-kit',
@@ -1545,6 +1575,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'foie-gras-teriyaki-burger-kit-8-pack',
@@ -1555,6 +1586,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'juicy-lucifer-burger-kit-for-4',
@@ -1565,6 +1597,7 @@ export const db = [
 		rate: 4,
 		country: 'Minneapolis, MN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'le-pig-mac-kit-for-4',
@@ -1575,6 +1608,7 @@ export const db = [
 		rate: 4,
 		country: 'New Orleans, LA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'juicy-lucy-burgers-sweet-potato-puffs-choose-your-own-4-pack',
@@ -1585,6 +1619,7 @@ export const db = [
 		rate: 5,
 		country: 'Minneapolis, MN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'the-cheeseburger-wellington-2-pack',
@@ -1595,6 +1630,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'dry-aged-blend-burgers',
@@ -1605,6 +1641,7 @@ export const db = [
 		rate: 5,
 		country: 'Bronx, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'double-stack-burger-kit-for-2',
@@ -1615,6 +1652,7 @@ export const db = [
 		rate: 4,
 		country: 'Atlanta, GA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'the-gold-label-burger-4-patties-6oz-each-15-lbs',
@@ -1625,6 +1663,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'legendary-cheesy-western-burger-kit-4-pack',
@@ -1635,6 +1674,7 @@ export const db = [
 		rate: 4,
 		country: 'Lynchburg, VA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'foie-gras-teriyaki-wagyu-burger-kit-8-pack',
@@ -1645,6 +1685,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'keens-burger-kit-for-4',
@@ -1655,6 +1696,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: '16001-100-fullblood-wagyu-beef-ground-beef',
@@ -1665,6 +1707,7 @@ export const db = [
 		rate: 5,
 		country: 'Golden, NM',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'the-cheeseburger-wellington-4-pack',
@@ -1675,6 +1718,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: '17663-mesquite-smoked-brisket-burger-patties-sauce',
@@ -1685,6 +1729,7 @@ export const db = [
 		rate: 5,
 		country: 'Seguin, TX',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gotts-impossible-burger-kit-for-8',
@@ -1695,6 +1740,7 @@ export const db = [
 		rate: 4,
 		country: 'St. Helena, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'goldbelly-steak-burger-sampler',
@@ -1705,6 +1751,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['burgers', 'steaks'],
+		featured: false,
 	},
 	{
 		id: 'hall-signature-wagyu-burger-kit-8-pack',
@@ -1715,6 +1762,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gourmet-burger-box-12-pack',
@@ -1725,6 +1773,7 @@ export const db = [
 		rate: 5,
 		country: 'Warrensburg, MO',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'foie-gras-teriyaki-burger-kit-4-pack',
@@ -1735,6 +1784,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'hall-signature-wagyu-burger-kit-4-pack',
@@ -1745,6 +1795,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'burger-patty-assortment-12-pack',
@@ -1755,6 +1806,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gotts-roadside-impossible-burger-kit-for-4',
@@ -1765,6 +1817,7 @@ export const db = [
 		rate: 4,
 		country: 'Oakland, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'short-rib-blend-burgers',
@@ -1775,6 +1828,7 @@ export const db = [
 		rate: 5,
 		country: 'Bronx, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'classic-shrimp-burgers',
@@ -1785,6 +1839,7 @@ export const db = [
 		rate: 4,
 		country: 'Franklin, TN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'moobys-meal-kit-6-pack',
@@ -1795,6 +1850,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'juicy-lucy-burgers-sweet-potato-puffs-choose-your-own-8-pack',
@@ -1805,6 +1861,7 @@ export const db = [
 		rate: 5,
 		country: 'Minneapolis, MN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'mesquite-smoked-brisket-burger-patties-hot-links-dry-rub',
@@ -1815,6 +1872,7 @@ export const db = [
 		rate: 4,
 		country: 'Seguin, TX',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'hatch-green-chile-cheeseburger-kit-6-pack',
@@ -1825,6 +1883,7 @@ export const db = [
 		rate: 5,
 		country: 'Hatch, NM',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'Giant-cheese-burger-potstickers-6-pack',
@@ -1835,6 +1894,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'juicy-lucy-burger-kit-10-pack',
@@ -1845,6 +1905,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'vegan-burger-grill-kit-for-4',
@@ -1855,6 +1916,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'classic-juicy-lucy-burgers-sweet-potato-puffs-8-pack',
@@ -1865,16 +1927,7 @@ export const db = [
 		rate: 5,
 		country: 'Minneapolis, MN',
 		cats: ['burgers'],
-	},
-	{
-		id: 'brisket-burger-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124922/short-rib-burger-blend.6275c3ffad67f0e93de4eafbc4f809df.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Pat LaFrieda Meats',
-		dsc: 'Brisket Burger - 8 Pack',
-		price: 31.9,
-		rate: 5,
-		country: 'North Bergen, NJ',
-		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'bfbol-original-blend-burger-8-pack',
@@ -1885,6 +1938,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'ribeye-burger-patties-6-pack',
@@ -1895,6 +1949,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'raouls-steak-and-burgers-au-poivre-kit-2-4-pack',
@@ -1905,16 +1960,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['burgers'],
-	},
-	{
-		id: 'bfbsr-short-rib-burger-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132398/short-rib-burger-blend.586f10c35edd4d7c6e9cfa41e3b2d0d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Pat LaFrieda Meats',
-		dsc: 'Short Rib Burger - 8 Pack',
-		price: 36,
-		rate: 4,
-		country: 'North Bergen, NJ',
-		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'gotts-impossible-burger-kit-for-4',
@@ -1925,6 +1971,7 @@ export const db = [
 		rate: 5,
 		country: 'St. Helena, CA',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'famous-french-bread-burger-fries-kit-for-4',
@@ -1935,6 +1982,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['burgers'],
+		featured: false,
 	},
 	{
 		id: 'vegan-burger-patties-12-pack',
@@ -1945,36 +1993,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['burgers'],
-	},
-	{
-		id: 'signature-chocolate-collection-25-piece',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106318/large-signature-collection.6f21146f2b1945d80f7931d69b763ba7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Knipschildt Chocolatier',
-		dsc: 'Signature Chocolate Collection Chocolate Gift Box - 25 Piece',
-		price: 60,
-		rate: 4,
-		country: 'Norwalk, CT',
-		cats: ['chocolates'],
-	},
-	{
-		id: '20482-chocolate-truffle-cake',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131261/chocolate-truffle-cake.289d1e58e4f0ca2dd39568fba9c17e91.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Ferrara Bakery',
-		dsc: 'Chocolate Truffle Cake',
-		price: 59,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['chocolates'],
-	},
-	{
-		id: 'signature-macarons-chocolates-16-pieces',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132333/signature-macarons-chocolates-16-pieces.6072c1e13db3f2ebca89db228f421715.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Sucré',
-		dsc: 'Signature Macarons + Chocolates - 16 Pieces',
-		price: 65,
-		rate: 4,
-		country: 'New Orleans, LA',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'jacques-world-famous-chocolate-chip-cookies',
@@ -1985,16 +2004,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['chocolates', 'desserts'],
-	},
-	{
-		id: 'milk-chocolate-turtle-gophers-gift-box-of-24',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97018/milk-chocolate-turtle-gophers-gift-box-of-24.9e12dafbdf9401faa776c2389c05b850.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Savannah's Candy Kitchen",
-		dsc: 'Milk Chocolate Turtle Gophers - Gift Box of 24',
-		price: 59,
-		rate: 4,
-		country: 'Savannah, GA',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-stack-12-bars',
@@ -2005,6 +2015,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '15259-german-chocolate-killer-brownie-tin-pack',
@@ -2015,6 +2026,7 @@ export const db = [
 		rate: 4,
 		country: 'Dayton, OH',
 		cats: ['chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'dark-chocolate-truffle-collection-16-pieces',
@@ -2025,6 +2037,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'raspberry-chocolate-pie',
@@ -2035,6 +2048,7 @@ export const db = [
 		rate: 4,
 		country: 'Oakland, CA',
 		cats: ['chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'k-m-chocolate-sampler-gift-box',
@@ -2045,6 +2059,7 @@ export const db = [
 		rate: 4,
 		country: 'Napa, CA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-fudge-cake',
@@ -2055,6 +2070,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-covered-cupcake-half-dozen',
@@ -2065,16 +2081,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['chocolates', 'desserts'],
-	},
-	{
-		id: 'double-chocolate-cake',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131604/double-chocolate-cake.bff63e243145fe04ec8a384d1bc1926c.gif?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Magnolia Bakery',
-		dsc: 'Double Chocolate Cake',
-		price: 65,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-ganache-fudge-brownie',
@@ -2085,6 +2092,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'award-winning-chocolate-4-layer-cake',
@@ -2095,16 +2103,7 @@ export const db = [
 		rate: 5,
 		country: 'Ft Lauderdale, FL',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'signature-chocolate-collection-15-pieces',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/123407/signature-chocolate-collection-15-pieces.a2e79d99347af6d6247636f08083167c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Sucré',
-		dsc: 'Signature Chocolate Collection - 15 Pieces',
-		price: 65,
-		rate: 4,
-		country: 'New Orleans, LA',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'whisky-dark-chocolate-cake',
@@ -2115,16 +2114,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'signature-chocolate-collection-12-piece',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106341/medium-signature-chocolate-box.51543f5d16b82434582d85c9c40b201c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Knipschildt Chocolatier',
-		dsc: 'Signature Chocolate Collection Gift Box- 12 Piece',
-		price: 32,
-		rate: 5,
-		country: 'Norwalk, CT',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'double-chocolate-cheesecake-with-ghirardelli-chocolate',
@@ -2135,6 +2125,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-cheesecake',
@@ -2145,6 +2136,7 @@ export const db = [
 		rate: 4,
 		country: 'Cambridge, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'dark-chocolate-truffle-collection-9-pieces',
@@ -2155,6 +2147,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-mousse-supreme-cake',
@@ -2165,6 +2158,7 @@ export const db = [
 		rate: 4,
 		country: 'Nanuet, NY',
 		cats: ['chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'the-boys-chocolate-pizza-3-pack',
@@ -2175,6 +2169,7 @@ export const db = [
 		rate: 5,
 		country: 'West Hollywood, CA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-pretzel-passion-gift-assortment',
@@ -2185,6 +2180,7 @@ export const db = [
 		rate: 4,
 		country: 'Forty Fort, PA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-tease-gift-box',
@@ -2195,6 +2191,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'milk-chocolate-truffle-collection-16-pieces',
@@ -2205,6 +2202,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '15678-not-a-nutter-killer-brownies',
@@ -2215,16 +2213,7 @@ export const db = [
 		rate: 4,
 		country: 'Dayton, OH',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'signature-chocolate-collection-8-pieces',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132095/signature-chocolate-collection-8-pieces.d253c3253a84123d64a4792c9e4363b5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Sucré',
-		dsc: 'Signature Chocolate Collection - 8 Pieces',
-		price: 49,
-		rate: 5,
-		country: 'New Orleans, LA',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-whoopie-pies',
@@ -2235,6 +2224,7 @@ export const db = [
 		rate: 5,
 		country: 'Gap, PA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'outrageous-dark-chocolate-chocolate-chunk-cookies-12-pack',
@@ -2245,16 +2235,7 @@ export const db = [
 		rate: 4,
 		country: 'Miami, FL',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'double-chocolate-almond-fudge-cookies-dozen',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134450/double-chocolate-almond-fudge-cookies-dozen.df65a64c34daa39545f013ceee53a4f8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Kreuther Handcrafted Chocolate',
-		dsc: 'Double Chocolate Almond Fudge Cookies - Dozen',
-		price: 69,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '20-layer-chocolate-peanut-butter-cake',
@@ -2265,6 +2246,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '14913-chocolate-bees',
@@ -2275,6 +2257,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'heart-shaped-chocolate-pizza-with-mallet',
@@ -2285,6 +2268,7 @@ export const db = [
 		rate: 5,
 		country: 'Forty Fort, PA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-mille-crepes-cake',
@@ -2295,6 +2279,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-outrage-cake',
@@ -2305,6 +2290,7 @@ export const db = [
 		rate: 4,
 		country: 'Nanuet, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-fudge-rainbow-cake',
@@ -2315,6 +2301,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'jacques-world-famous-chocolate-chip-cookies-12-pack',
@@ -2325,6 +2312,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-rads-4-pack',
@@ -2335,6 +2323,7 @@ export const db = [
 		rate: 5,
 		country: 'Napa Valley, CA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'signature-chocolate-tower',
@@ -2345,6 +2334,7 @@ export const db = [
 		rate: 4,
 		country: 'Philadelphia, PA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-candy-striped-gift-tin',
@@ -2355,6 +2345,7 @@ export const db = [
 		rate: 5,
 		country: 'Savannah, GA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'flourless-chocolate-cake',
@@ -2365,6 +2356,7 @@ export const db = [
 		rate: 5,
 		country: 'Atlanta, GA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-dipped-macaroons',
@@ -2375,6 +2367,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'dark-chocolate-nutty-cups',
@@ -2385,6 +2378,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-cherry-sumptuous-assortment',
@@ -2395,6 +2389,7 @@ export const db = [
 		rate: 4,
 		country: 'Prosser, WA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '15538-chocolate-pecan-bourbon',
@@ -2405,16 +2400,7 @@ export const db = [
 		rate: 5,
 		country: 'Norwalk, CT',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'chocolate-chip-cookie-cake',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/118296/chocolate-chip-cookie-cake.6d422e0c37ada9eef8032a3fda4ed7b3.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Mini Melanie',
-		dsc: 'Chocolate Chip Cookie Cake',
-		price: 64,
-		rate: 5,
-		country: 'Brooklyn, NY',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '2-lou-malnatis-deep-dish-pizzas-lezza-chocolate-cake',
@@ -2425,6 +2411,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['chocolates', 'pizzas'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-marshmallows',
@@ -2435,6 +2422,7 @@ export const db = [
 		rate: 5,
 		country: 'Nashville, TN',
 		cats: ['chocolates', 'desserts'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-peanut-butter-smith-island-cake',
@@ -2445,6 +2433,7 @@ export const db = [
 		rate: 5,
 		country: 'Jessup, MD',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-fudge-cake-8',
@@ -2455,6 +2444,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'jumbo-chocolate-chip-cookie-cake',
@@ -2465,16 +2455,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'double-chocolate-almond-fudge-chocolate-chip-cookie-dozen',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106645/double-chocolate-almond-fudge-chocolate-chip-cookie-dozen.9581815c5f57c01c26353c8eb52a6a08.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Kreuther Handcrafted Chocolate',
-		dsc: 'Double Chocolate Almond Fudge + Chocolate Chip Cookie Dozen',
-		price: 69,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '20363-triple-chocolate-cake',
@@ -2485,6 +2466,7 @@ export const db = [
 		rate: 5,
 		country: 'Marshall, VA',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: '17641-wilbur-the-chocolate-moose',
@@ -2495,6 +2477,7 @@ export const db = [
 		rate: 4,
 		country: 'Freeport, ME',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'dutch-chocolate-basque-burnt-cheesecake-gluten-free',
@@ -2505,6 +2488,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['chocolates'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-passion-layer-cake',
@@ -2515,16 +2499,7 @@ export const db = [
 		rate: 5,
 		country: 'Kimmswick, MO',
 		cats: ['chocolates'],
-	},
-	{
-		id: 'world-famous-banana-pudding-party-sized',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Magnolia Bakery',
-		dsc: 'World Famous Banana Pudding Bowl (64 oz.)',
-		price: 56,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'luigis-original-cannoli-pie',
@@ -2535,6 +2510,7 @@ export const db = [
 		rate: 4,
 		country: 'Bridgeport, CT',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'sea-salted-caramel-swirl-cheesecake',
@@ -2545,6 +2521,7 @@ export const db = [
 		rate: 4,
 		country: 'Hattiesburg, MS',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'brooklyn-blackout-cookie-brownie-combo-pack-2-tins',
@@ -2555,16 +2532,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['desserts'],
-	},
-	{
-		id: 'smores-variety-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/78037/smores-variety-pack.86cf47d40c0c3508ce14d2659b3f99d4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Gotta Have S'more",
-		dsc: "S'mores - Variety Pack",
-		price: 49,
-		rate: 5,
-		country: 'Los Angeles, CA',
-		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'best-seller-cupcake-dozen',
@@ -2575,6 +2543,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-donuts-6-pack',
@@ -2585,6 +2554,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['desserts', 'ice-cream'],
+		featured: false,
 	},
 	{
 		id: '17481-jewish-dessert-3-pack',
@@ -2595,6 +2565,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'dessert-bar-care-package',
@@ -2605,6 +2576,7 @@ export const db = [
 		rate: 4,
 		country: 'Wells, ME',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'donut-cookies-12-pack',
@@ -2615,6 +2587,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'gulab-jamun-ice-cream-cakes-2-pack',
@@ -2625,6 +2598,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'assorted-rice-krispie-treats-12-pack',
@@ -2635,6 +2609,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-6-pints',
@@ -2645,6 +2620,7 @@ export const db = [
 		rate: 4,
 		country: 'Cincinnati, OH',
 		cats: ['desserts', 'ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'candy-cookie-cheesecake-sampler',
@@ -2655,16 +2631,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['desserts'],
-	},
-	{
-		id: 'magnolia-banana-pudding-explore',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136779/Magnolia-NEW-BP-Pudding-Cup.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Magnolia Bakery',
-		dsc: 'World Famous Banana Pudding',
-		price: 65,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'brooklyn-blackout-parfait',
@@ -2675,6 +2642,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'dessert-bars-choose-your-own-9-pack',
@@ -2685,6 +2653,7 @@ export const db = [
 		rate: 5,
 		country: 'Lawrence Twp, NJ',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'cinnamon-rolls-honey-bees-sampler-pack',
@@ -2695,6 +2664,7 @@ export const db = [
 		rate: 5,
 		country: 'La Grange, TX',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'original-ny-plain-cheesecake',
@@ -2705,6 +2675,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'little-italy-dessert-pack',
@@ -2715,6 +2686,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'cookie-monster-ice-cream-sandwich-8-pack',
@@ -2725,6 +2697,7 @@ export const db = [
 		rate: 5,
 		country: 'Richmond, VA',
 		cats: ['desserts', 'ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'cinnamon-roll-cheesecake',
@@ -2735,6 +2708,7 @@ export const db = [
 		rate: 4,
 		country: 'Statesboro, GA',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: '23595-choose-your-own-ice-cream-sandwich-8-pack',
@@ -2745,6 +2719,7 @@ export const db = [
 		rate: 4,
 		country: 'Wilmington, NC',
 		cats: ['desserts', 'ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'banana-pudding-sampler-4-pack',
@@ -2755,36 +2730,7 @@ export const db = [
 		rate: 4,
 		country: 'Long Beach, CA',
 		cats: ['desserts'],
-	},
-	{
-		id: 'cheesecake-macarons-24-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/91242/cheesecake-macarons-24-pack.98311118ad15fcff82a74763d1a8ed32.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Kreuther Handcrafted Chocolate',
-		dsc: 'Cheesecake Macarons - 24 Pack',
-		price: 75,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['desserts'],
-	},
-	{
-		id: 'brownie-explosion-cheesecake',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86905/plain-cheesecake.0ff81b367c16fb722c66d6d1deab0fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Junior's Cheesecake",
-		dsc: 'Brownie Explosion Cheesecake',
-		price: 74.95,
-		rate: 5,
-		country: 'Brooklyn, NY',
-		cats: ['desserts'],
-	},
-	{
-		id: 'smores-cookie-12-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133252/smores-cookie-12-pack.2fefcfed46bc853bc16b28421b935e72.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Cookie Good',
-		dsc: "S'mores Cookie - 12 Pack",
-		price: 49,
-		rate: 4,
-		country: 'Los Angeles, CA',
-		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-donuts-12-pack',
@@ -2795,6 +2741,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: '23595-best-sellers-ice-cream-sandwich-8-pack',
@@ -2805,6 +2752,7 @@ export const db = [
 		rate: 4,
 		country: 'Wilmington, NC',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'chocolate-chip-cookies',
@@ -2815,26 +2763,7 @@ export const db = [
 		rate: 5,
 		country: 'Boone, NC',
 		cats: ['desserts'],
-	},
-	{
-		id: '17228-4-pint-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Tipsy Scoop Boozy Ice Cream',
-		dsc: 'Choose Your Own Boozy Ice Cream - 4 Pints',
-		price: 99,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['desserts', 'ice-cream'],
-	},
-	{
-		id: 'cheesecake-macarons-12-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107554/cheesecake-macarons-12-pack.e6d5a23285fc17c227aab7c574163077.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Kreuther Handcrafted Chocolate',
-		dsc: 'Cheesecake Macarons - 12 Pack',
-		price: 55,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'banana-pudding-choose-your-own-4-pack',
@@ -2845,6 +2774,7 @@ export const db = [
 		rate: 4,
 		country: 'Long Beach, CA',
 		cats: ['desserts'],
+		featured: false,
 	},
 	{
 		id: 'hong-kong-boba-tea-kit-for-6',
@@ -2855,6 +2785,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'guys-caliente-margaritas-for-12',
@@ -2865,6 +2796,7 @@ export const db = [
 		rate: 5,
 		country: 'Flavortown, USA',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'woodford-reserve-mint-julep-syrup',
@@ -2875,6 +2807,7 @@ export const db = [
 		rate: 4,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'new-orleans-hurricane-mix',
@@ -2885,6 +2818,7 @@ export const db = [
 		rate: 5,
 		country: 'Natchitoches, LA',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'evan-williams-gourmet-mint-julep-mix-2-pack',
@@ -2895,6 +2829,7 @@ export const db = [
 		rate: 4,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'margarita-mix',
@@ -2905,6 +2840,7 @@ export const db = [
 		rate: 5,
 		country: 'New Orleans, LA',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'woodford-reserve-mint-julep-syrup-2-pack',
@@ -2915,6 +2851,7 @@ export const db = [
 		rate: 5,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'evan-williams-gourmet-mint-julep-mix',
@@ -2925,6 +2862,7 @@ export const db = [
 		rate: 5,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'knock-you-naked-strawberry-margarita-mix',
@@ -2935,16 +2873,7 @@ export const db = [
 		rate: 4,
 		country: 'Natchez, MS',
 		cats: ['drinks'],
-	},
-	{
-		id: 'cold-brew-concentrate-variety-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134399/cold-brew-concentrate-variety-6-pack.ee2c1ff6e21556a824d07fcd6dc96682.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Grady's Cold Brew",
-		dsc: 'Cold Brew Concentrate Variety - 6 Pack',
-		price: 60,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'organic-shots-bundle-12-pack',
@@ -2955,6 +2884,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'papaya-king-tropical-drink',
@@ -2965,16 +2895,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
-	},
-	{
-		id: 'dels-x-iggys-frozen-lemonade-mix',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136231/Iggys-Del-Lemonade-Mix-Product-1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Iggy's",
-		dsc: "Del's x Iggy's Frozen Lemonade Mix",
-		price: 10,
-		rate: 4,
-		country: 'Warwick, RI',
-		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'unicorn-parade-milkshake-kit-for-8',
@@ -2985,6 +2906,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15193-old-honey-barn-mint-julep-mixer-750ml',
@@ -2995,6 +2917,7 @@ export const db = [
 		rate: 5,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15323-cocktail-pack',
@@ -3005,6 +2928,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'chickpea-chiller-kit-for-6',
@@ -3015,6 +2939,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '16591-knock-you-naked-margarita-mix',
@@ -3025,6 +2950,7 @@ export const db = [
 		rate: 5,
 		country: 'Natchez, MS',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'hazelnut-mocha-cold-brew-concentrate-6-pack',
@@ -3035,6 +2961,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15194-old-honey-barn-mint-julep-mixer-200ml',
@@ -3045,6 +2972,7 @@ export const db = [
 		rate: 5,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'mr-grumpy-milkshake-kit-for-8',
@@ -3055,6 +2983,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'low-sugar-juice-cleanse-7-pack',
@@ -3065,6 +2994,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'kentucky-derby-mint-julep-gift-set',
@@ -3075,6 +3005,7 @@ export const db = [
 		rate: 4,
 		country: 'Louisville, KY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'french-vanilla-cold-brew-concentrate-6-pack',
@@ -3085,6 +3016,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'iggys-soda-4-pack',
@@ -3095,6 +3027,7 @@ export const db = [
 		rate: 4,
 		country: 'Warwick, RI',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '002-charleston-bloody-mary-mix-weekender-bold-and-spicy',
@@ -3105,6 +3038,7 @@ export const db = [
 		rate: 4,
 		country: 'Charleston, SC',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'nola-cold-brew-concentrate-bag-in-box',
@@ -3115,6 +3049,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '002-original-cold-brewed-coffee-syrup',
@@ -3125,6 +3060,7 @@ export const db = [
 		rate: 4,
 		country: 'Charlestown, RI',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'signature-juice-cleanse-7-pack',
@@ -3135,6 +3071,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'metal-drink-bottle',
@@ -3145,6 +3082,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'greens-juice-bundle-5-pack',
@@ -3155,6 +3093,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '16990-frozen-hot-chocolate-party-gift-box',
@@ -3165,6 +3104,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'duck-duck-goat-kit-for-2',
@@ -3175,6 +3115,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15451-bold-and-spicy-8-oz-case',
@@ -3185,6 +3126,7 @@ export const db = [
 		rate: 5,
 		country: 'Charleston, SC',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'immune-boosting-juice-bundle-6-pack',
@@ -3195,6 +3137,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'nola-cold-brew-concentrate-6-pack',
@@ -3205,6 +3148,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'kermits-double-strength-key-lime-juice',
@@ -3215,6 +3159,7 @@ export const db = [
 		rate: 4,
 		country: 'Key West, FL',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '16991-hot-chocolate',
@@ -3225,6 +3170,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'nola-cold-brew-concentrate-12-pack',
@@ -3235,6 +3181,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'POB1-pat-obriens-new-orleans-drink-mixes',
@@ -3245,6 +3192,7 @@ export const db = [
 		rate: 5,
 		country: 'New Orleans, LA',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15703-frrrozen-mint-hot-chocolate',
@@ -3255,6 +3203,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '234234-frrrozen-hot-chocolate',
@@ -3265,6 +3214,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '15702-frrrozen-salted-caramel-hot-chocolate',
@@ -3275,6 +3225,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '003-bender-charleston-bloody-mary-mix-bold-and-spicy',
@@ -3285,6 +3236,7 @@ export const db = [
 		rate: 5,
 		country: 'Charleston, SC',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'lil-easy-nola-cold-brew-12-pack',
@@ -3295,6 +3247,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'hot-dogs-tropical-drink',
@@ -3305,6 +3258,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'virtual-cocktail-party-kit',
@@ -3315,6 +3269,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: '002-cafe-du-monde-coffee-and-beignets',
@@ -3325,6 +3280,7 @@ export const db = [
 		rate: 5,
 		country: 'New Orleans, LA',
 		cats: ['drinks'],
+		featured: false,
 	},
 	{
 		id: 'hot-chicken-whole-bird',
@@ -3335,6 +3291,7 @@ export const db = [
 		rate: 5,
 		country: 'Nashville, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'the-bird-fried-chicken-for-4',
@@ -3345,6 +3302,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-biscuit-sandwich-kit',
@@ -3355,26 +3313,7 @@ export const db = [
 		rate: 4,
 		country: 'Chapel Hill, NC',
 		cats: ['fried-chicken', 'sandwiches'],
-	},
-	{
-		id: 'nashville-hot-chicken-family-meal-for-4',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103169/nashville-hot-chicken-family-meal-for-4.43a0ea9ae1b7663ff18d82f4930fa561.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Big Shake's Hot Chicken",
-		dsc: 'Nashville Hot Chicken Family Meal for 4',
-		price: 99,
-		rate: 5,
-		country: 'Franklin, TN',
-		cats: ['fried-chicken'],
-	},
-	{
-		id: 'korean-fried-chicken-kit-for-4',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108361/korean-fried-chicken-kit-for-4.4c354ab17c40cd78402d4697b1e075e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Seoul Sausage',
-		dsc: 'Korean Fried Chicken Kit for 4',
-		price: 89,
-		rate: 5,
-		country: 'Los Angeles, CA',
-		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'the-family-bird-fried-chicken-for-8',
@@ -3385,6 +3324,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'nashville-hot-chicken-family-meal-for-8',
@@ -3395,6 +3335,7 @@ export const db = [
 		rate: 5,
 		country: 'Franklin, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-dinner-kit-for-2-4',
@@ -3405,6 +3346,7 @@ export const db = [
 		rate: 4,
 		country: 'Miami Beach, FL',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-sandwich-combo-kit-for-6',
@@ -3415,6 +3357,7 @@ export const db = [
 		rate: 4,
 		country: 'Las Vegas, NV',
 		cats: ['fried-chicken', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'picnic-chicken-sandwich-kit-for-4',
@@ -3425,6 +3368,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'jumbo-hot-chicken-wings-12-pack',
@@ -3435,6 +3379,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'japanese-fried-chicken-dinner-kit-for-2',
@@ -3445,6 +3390,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'world-famous-hot-chicken-and-waffles-for-6',
@@ -3455,6 +3401,7 @@ export const db = [
 		rate: 4,
 		country: 'Franklin, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'chicken-tenders-25-pack',
@@ -3465,16 +3412,7 @@ export const db = [
 		rate: 4,
 		country: 'Las Vegas, NV',
 		cats: ['fried-chicken'],
-	},
-	{
-		id: 'pappys-ribs-and-chicken-dinner-for-8',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106948/pappys-ribs-and-chicken-dinner-for-8.904cebbd327940da15399e0608dffa55.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Pappy's Smokehouse",
-		dsc: "Pappy's Ribs & Chicken - Dinner for 8",
-		price: 129,
-		rate: 4,
-		country: 'St. Louis, MO',
-		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'game-day-jumbo-fried-chicken-wings-24-pack',
@@ -3485,6 +3423,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'hot-chicken-2-whole-birds',
@@ -3495,6 +3434,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-10-pieces',
@@ -3505,6 +3445,7 @@ export const db = [
 		rate: 4,
 		country: 'San Francisco, CA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'carla-halls-nashville-hot-fried-chicken-dinner-for-4-6',
@@ -3515,6 +3456,7 @@ export const db = [
 		rate: 5,
 		country: 'Washington, DC',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-and-wings-for-6',
@@ -3525,6 +3467,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: '18635-signature-chicken-pie',
@@ -3535,16 +3478,7 @@ export const db = [
 		rate: 5,
 		country: 'Centerville, MA',
 		cats: ['fried-chicken'],
-	},
-	{
-		id: 'korean-bbq-sausage-fried-chicken-kit-for-8',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108394/korean-bbq-sausage-fried-chicken-kit-for-8.8d3be80287dda24f8153f28e9efab6a4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Seoul Sausage',
-		dsc: 'Korean BBQ Sausage + Fried Chicken Kit for 8',
-		price: 119,
-		rate: 4,
-		country: 'Los Angeles, CA',
-		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'korean-fried-chicken-10-pack',
@@ -3555,6 +3489,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'chicken-pot-pie-4-pack',
@@ -3565,6 +3500,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'picnic-chicken-sandwich-with-memphis-mustard-slaw-kit-for-8',
@@ -3575,6 +3511,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'the-big-game-combo-fried-chicken-drums-and-jumbo-wings-for-12',
@@ -3585,6 +3522,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'nashville-hot-jumbo-chicken-tenders-family-meal-for-8',
@@ -3595,6 +3533,7 @@ export const db = [
 		rate: 5,
 		country: 'Franklin, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'wing-it-up-fried-chicken-wings-25-pack',
@@ -3605,6 +3544,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'crispy-crunchy-breaded-nashville-hot-wings-50-pack',
@@ -3615,6 +3555,7 @@ export const db = [
 		rate: 5,
 		country: 'Franklin, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'chicken-pot-pie-bites',
@@ -3625,6 +3566,7 @@ export const db = [
 		rate: 5,
 		country: 'Atlanta, GA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'japanese-fried-chicken-dinner-kit-for-4',
@@ -3635,6 +3577,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'chicken-biscuits-for-6',
@@ -3645,6 +3588,7 @@ export const db = [
 		rate: 4,
 		country: 'Orlando, FL',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'smoked-chicken-halves',
@@ -3655,6 +3599,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'hot-chicken-whole-bird-12-jumbo-wings',
@@ -3665,6 +3610,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-dinner-kit-for-4',
@@ -3675,6 +3621,7 @@ export const db = [
 		rate: 4,
 		country: 'San Francisco, CA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'oven-roasted-chicken-wings-50-piece',
@@ -3685,6 +3632,7 @@ export const db = [
 		rate: 4,
 		country: 'Buffalo, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'hot-party-wings-24-pack',
@@ -3695,16 +3643,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['fried-chicken'],
-	},
-	{
-		id: 'chicken-wings-choose-your-own-50-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110867/chicken-wings-choose-your-own-50-pack.cd226df19f0bb4af94ab5f69dc781083.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Magic City Kitchen',
-		dsc: 'Chicken Wings - Choose Your Own 50 Pack',
-		price: 109,
-		rate: 4,
-		country: 'Atlanta, GA',
-		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'balsamic-chicken-rice-dinner-kit-for-2-3',
@@ -3715,6 +3654,7 @@ export const db = [
 		rate: 5,
 		country: 'Long Island, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'picnic-chicken-sandwich-kit-for-8',
@@ -3725,6 +3665,7 @@ export const db = [
 		rate: 4,
 		country: 'Philadelphia, PA',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'korean-fried-chicken-20-pack',
@@ -3735,6 +3676,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'game-day-jumbo-fried-chicken-wings-48-pack',
@@ -3745,6 +3687,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: '002-five-pound-chicken-sausage-sampler',
@@ -3755,6 +3698,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken', 'sausages'],
+		featured: false,
 	},
 	{
 		id: 'hot-mess-sandwich-kit-for-6',
@@ -3765,16 +3709,7 @@ export const db = [
 		rate: 4,
 		country: 'Franklin, TN',
 		cats: ['fried-chicken'],
-	},
-	{
-		id: 'backyard-barbecue-chicken',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105379/backyard-barbecue-chicken.321a1babf487d24419a8c3947a94a20b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Blue Smoke',
-		dsc: 'Backyard Barbecue Chicken',
-		price: 79,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: '17542-cajun-mild-deep-fried-turkey',
@@ -3785,6 +3720,7 @@ export const db = [
 		rate: 4,
 		country: 'Dallas, TX',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'fried-chicken-dinner-kit-for-6-8',
@@ -3795,6 +3731,7 @@ export const db = [
 		rate: 5,
 		country: 'Miami Beach, FL',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'picnic-chicken-sandwich-with-memphis-mustard-slaw-kit-for-4',
@@ -3805,6 +3742,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['fried-chicken', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: '19388-buffalo-chicken-and-blue-cheese-fried-pies',
@@ -3815,6 +3753,7 @@ export const db = [
 		rate: 5,
 		country: 'Knoxville, TN',
 		cats: ['fried-chicken'],
+		featured: false,
 	},
 	{
 		id: 'the-drum-kit-fried-chicken-drumsticks-48-pack',
@@ -3825,36 +3764,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['fried-chicken'],
-	},
-	{
-		id: 'chicken-wings-choose-your-own-100-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110907/chicken-wings-choose-your-own-100-pack.fbeb35b46643e99da6ffcf9e14e04b2c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Magic City Kitchen',
-		dsc: 'Chicken Wings - Choose Your Own 100 Pack',
-		price: 159,
-		rate: 5,
-		country: 'Atlanta, GA',
-		cats: ['fried-chicken'],
-	},
-	{
-		id: '23952-nancys-italian-gelato-gift-box',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Nancy Silverton's Nancy's Fancy",
-		dsc: "Nancy Silverton's Favorite Gelato Gift Box",
-		price: 89,
-		rate: 4,
-		country: 'Los Angeles, CA',
-		cats: ['ice-cream'],
-	},
-	{
-		id: '237283342-choose-your-own-frozen-custard-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Anderson's Frozen Custard",
-		dsc: 'Frozen Custard + Handmade Ice Cream - Choose Your Own - 6 Pack',
-		price: 109,
-		rate: 4,
-		country: 'Buffalo, NY',
-		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'ice-cream-choose-your-own-5-pints',
@@ -3865,6 +3775,7 @@ export const db = [
 		rate: 4,
 		country: 'San Diego, CA',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'ice-cream-choose-your-own-6-pints',
@@ -3875,16 +3786,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['ice-cream'],
-	},
-	{
-		id: 'ice-cream-choose-your-own-4-pints',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107316/ice-cream-choose-your-own-4-pints.22c48c4004a36083da64a69635076e6e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Sugar Hill Creamery',
-		dsc: 'Ice Cream - Choose Your Own 4 Pints',
-		price: 79,
-		rate: 5,
-		country: 'Harlem, NY',
-		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-6-pints',
@@ -3895,6 +3797,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-12-pints',
@@ -3905,6 +3808,7 @@ export const db = [
 		rate: 4,
 		country: 'Cincinnati, OH',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'best-sellers-ice-cream-collection-6-pints',
@@ -3915,6 +3819,7 @@ export const db = [
 		rate: 4,
 		country: 'Lexington, KY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-5-pints',
@@ -3925,6 +3830,7 @@ export const db = [
 		rate: 4,
 		country: 'Washington, DC',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'pannas-choice-ice-cream-6-pack',
@@ -3935,6 +3841,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'gelato-and-sorbetto-minis-12-pack',
@@ -3945,6 +3852,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'mochi-ice-cream-choose-your-own-12-pack',
@@ -3955,6 +3863,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'giant-ice-cream-sandwich-kit-choose-your-own-6-pack',
@@ -3965,16 +3874,7 @@ export const db = [
 		rate: 5,
 		country: 'San Diego, CA',
 		cats: ['ice-cream'],
-	},
-	{
-		id: 'mini-ice-cream-sandwiches-choose-your-own-16-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134845/mini-ice-cream-sandwiches-choose-your-own-16-pack.4f75836908c8ce41789c4af346bfa9d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Cream + Sugar',
-		dsc: 'Mini Ice Cream Sandwiches - Choose Your Own 16 Pack',
-		price: 89,
-		rate: 4,
-		country: 'Jackson, WY',
-		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'layered-ice-cream-sundae-jar-choose-your-own-6-pack',
@@ -3985,6 +3885,7 @@ export const db = [
 		rate: 5,
 		country: 'Gulf Shores, AL',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'best-seller-ice-cream-pack-6-pints',
@@ -3995,6 +3896,7 @@ export const db = [
 		rate: 5,
 		country: 'Woodbury, MN',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-ice-cream-creamwich-combo-for-10',
@@ -4005,6 +3907,7 @@ export const db = [
 		rate: 4,
 		country: 'Manhattan Beach, CA',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'giant-ice-cream-sandwich-kit-choose-your-own-9-pack',
@@ -4015,16 +3918,7 @@ export const db = [
 		rate: 5,
 		country: 'San Diego, CA',
 		cats: ['ice-cream'],
-	},
-	{
-		id: 'artisan-ice-cream-choose-your-own-6-pints',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131929/artisan-ice-cream-choose-your-own-6-pints.fc029dfaf6c0b6143ed09f3dc6f72745.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Cream + Sugar',
-		dsc: 'Artisan Ice Cream - Choose Your Own 6 Pints',
-		price: 99,
-		rate: 4,
-		country: 'Jackson, WY',
-		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'bonastyle-ice-cream-choose-your-own-6-pints',
@@ -4035,6 +3929,7 @@ export const db = [
 		rate: 5,
 		country: 'Port Chester, NY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'flavors-of-kentucky-ice-cream-collection-6-pints',
@@ -4045,6 +3940,7 @@ export const db = [
 		rate: 4,
 		country: 'Lexington, KY',
 		cats: ['ice-cream'],
+		featured: false,
 	},
 	{
 		id: 'signature-chip-ice-cream-6-pints',
@@ -4055,16 +3951,7 @@ export const db = [
 		rate: 5,
 		country: 'Cincinnati, OH',
 		cats: ['ice-cream'],
-	},
-	{
-		id: '2-lou-malnatis-deep-dish-pizzas',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97981/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Lou Malnati's Pizza",
-		dsc: "2 Lou Malnati's Deep Dish Pizzas",
-		price: 67.99,
-		rate: 4,
-		country: 'Chicago, IL',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '23699-choose-your-own-thin-crust-pizza-4-pack',
@@ -4075,6 +3962,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-new-haven-style-pizza-6-pack',
@@ -4085,16 +3973,7 @@ export const db = [
 		rate: 4,
 		country: 'West Haven, CT',
 		cats: ['pizzas'],
-	},
-	{
-		id: '6-lou-malnatis-deep-dish-pizzas',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106829/6-lou-malnatis-deep-dish-pizzas.f59993181da5d295668c8a6fb856055e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Lou Malnati's Pizza",
-		dsc: "6 Lou Malnati's Deep Dish Pizzas",
-		price: 116.99,
-		rate: 4,
-		country: 'Chicago, IL',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '236991-choose-your-own-deep-dish-pizza-3-pack',
@@ -4105,16 +3984,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
-	},
-	{
-		id: 'choose-your-own-detroit-style-pizza-3-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132973/detroit-style-pizza-choose-your-own-3-pack.6b6f4909ffd4066d5471e70eac5c3d89.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Emmy Squared',
-		dsc: 'Detroit-Style Pizza - Choose Your Own 3 Pack',
-		price: 89,
-		rate: 4,
-		country: 'Brooklyn, NY',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'brooklyn-pizza-choose-your-own-5-pack',
@@ -4125,6 +3995,7 @@ export const db = [
 		rate: 4,
 		country: 'Albany, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-chicago-deep-dish-pizza-4-pack',
@@ -4135,6 +4006,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '4-lou-malnatis-deep-dish-pizzas',
@@ -4145,6 +4017,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'tonys-custom-pizza-3-pack',
@@ -4155,6 +4028,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'plain-thin-crust-pizza-4-pack',
@@ -4165,6 +4039,7 @@ export const db = [
 		rate: 5,
 		country: 'Montville, NJ',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'brooklyn-pizza-choose-your-own-10-pack',
@@ -4175,6 +4050,7 @@ export const db = [
 		rate: 4,
 		country: 'Albany, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'new-haven-style-mozzarella-pizza-6-pack',
@@ -4185,6 +4061,7 @@ export const db = [
 		rate: 5,
 		country: 'West Haven, CT',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-3-pizzas',
@@ -4195,16 +4072,7 @@ export const db = [
 		rate: 4,
 		country: 'Milaca, MN',
 		cats: ['pizzas'],
-	},
-	{
-		id: '17408-coal-oven-margherita-pizza-pie-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/72343/coal-oven-margherita-pizza-pie-4-pack.c5944293e17b40f2659562179b493a10.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Table 87 Pizza',
-		dsc: 'Coal Oven Margherita Pizza - 4 Pies',
-		price: 79,
-		rate: 5,
-		country: 'Brooklyn, NY',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '15464-detroit-style-pizza-squares-choose-your-own-3-pack',
@@ -4215,6 +4083,7 @@ export const db = [
 		rate: 4,
 		country: 'Detroit, MI',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '15952-create-your-own-pizza-3-pack',
@@ -4225,6 +4094,7 @@ export const db = [
 		rate: 4,
 		country: 'Detroit, MI',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'pan-style-deep-dish-pizza-choose-your-own-4-pack',
@@ -4235,6 +4105,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'buffalo-style-pepperoni-pizza-2-pack',
@@ -4245,6 +4116,7 @@ export const db = [
 		rate: 5,
 		country: 'Buffalo, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'neapolitan-pizza-choose-your-own-3-Pack',
@@ -4255,6 +4127,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '16940-brick-oven-pizza-6-pack',
@@ -4265,6 +4138,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'thin-crust-pizza-choose-your-own-4-pack',
@@ -4275,6 +4149,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'ny-style-pizza-choose-your-own-3-pack',
@@ -4285,6 +4160,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-chicago-deep-dish-pizza-2-pack',
@@ -4295,6 +4171,7 @@ export const db = [
 		rate: 4,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'pizza-choose-your-own4-pack',
@@ -4305,16 +4182,7 @@ export const db = [
 		rate: 4,
 		country: 'Boston, MA',
 		cats: ['pizzas'],
-	},
-	{
-		id: '17409-coal-oven-margherita-pizza-slices-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134133/coal-oven-margherita-pizza-8-slices.a6e3c0e43bf45c956014f064e25735cd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Table 87 Pizza',
-		dsc: 'New York Pizza - 8 Giant Slices',
-		price: 79,
-		rate: 5,
-		country: 'Brooklyn, NY',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'thin-crust-pizza-choose-your-own-6-pack',
@@ -4325,6 +4193,7 @@ export const db = [
 		rate: 5,
 		country: 'Montville, NJ',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'Sausage-pizza-6-pack',
@@ -4335,6 +4204,7 @@ export const db = [
 		rate: 5,
 		country: 'West Haven, CT',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'original-cheese-new-york-pizza-2-pack',
@@ -4345,16 +4215,7 @@ export const db = [
 		rate: 4,
 		country: 'Staten Island, NY',
 		cats: ['pizzas'],
-	},
-	{
-		id: 'chicago-deep-dish-pizza-3-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101630/chicago-deep-dish-pizza-choose-your-own-3-pack.b795d4f915c116ba9e7f2e7951e79ad0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Gino's East",
-		dsc: 'Chicago Deep Dish Pizza Box - Choose Your Own 3 Pack',
-		price: 89,
-		rate: 5,
-		country: 'Chicago, IL',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-bar-pizza-4-pack',
@@ -4365,6 +4226,7 @@ export const db = [
 		rate: 5,
 		country: 'Brockton, MA',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '16939-brick-oven-pizza-4-pack',
@@ -4375,6 +4237,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'signature-sampler',
@@ -4385,16 +4248,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
-	},
-	{
-		id: 'choose-your-own-6-pizzas',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/82735/choose-your-own-6-pizzas.5e9950eb1a06f3b87543f867506511b2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Heggies Pizza',
-		dsc: 'Choose Your Own - 6 Pizzas',
-		price: 119,
-		rate: 5,
-		country: 'Milaca, MN',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'pan-style-deep-dish-pizza-choose-your-own-2-pack',
@@ -4405,6 +4259,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'wood-fired-pizza-choose-your-own-2-pack',
@@ -4415,6 +4270,7 @@ export const db = [
 		rate: 5,
 		country: 'Pleasantville, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'chicago-style-pizza-buy-3-get-1-free',
@@ -4425,6 +4281,7 @@ export const db = [
 		rate: 5,
 		country: 'Daytona Beach, FL',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'neapolitan-pizza-choose-your-own-6-pack',
@@ -4435,6 +4292,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'buffalo-style-pepperoni-pizza-4-pack',
@@ -4445,6 +4303,7 @@ export const db = [
 		rate: 4,
 		country: 'Buffalo, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: '15318-make-your-own-old-forge-pizza-2-pack',
@@ -4455,6 +4314,7 @@ export const db = [
 		rate: 4,
 		country: 'Old Forge, PA',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'pizza-choose-your-own-4-pack',
@@ -4465,6 +4325,7 @@ export const db = [
 		rate: 5,
 		country: 'Nashville, TN',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'spicy-spring-2-pack',
@@ -4475,6 +4336,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'cheese-pizza-5-pack',
@@ -4485,6 +4347,7 @@ export const db = [
 		rate: 5,
 		country: 'Albany, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'detroit-style-pizza-best-seller-3-pack',
@@ -4495,6 +4358,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'famous-pizza-making-kit',
@@ -4505,6 +4369,7 @@ export const db = [
 		rate: 5,
 		country: 'Hoboken, NJ',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'famous-artichoke-pizza-2-pack',
@@ -4515,6 +4380,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'brooklyn-pizza-best-seller-5-pack',
@@ -4525,6 +4391,7 @@ export const db = [
 		rate: 5,
 		country: 'Albany, NY',
 		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'pepperoni-ny-style-pizza-2-pack',
@@ -4535,16 +4402,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['pizzas'],
-	},
-	{
-		id: 'chicago-deep-dish-pizza-2-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/102327/chicago-deep-dish-pizza-2-pack.e5052999d72a3737ba464a03d51b33dc.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Labriola Chicago',
-		dsc: 'Chicago Deep Dish Pizza - Choose Your Own 2 Pack',
-		price: 89,
-		rate: 4,
-		country: 'Chicago, IL',
-		cats: ['pizzas'],
+		featured: false,
 	},
 	{
 		id: 'roast-pork-sandwich-kit-for-4',
@@ -4555,6 +4413,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['porks', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'double-bone-in-heritage-berkshire-pork-chops-4-pack',
@@ -4565,6 +4424,7 @@ export const db = [
 		rate: 5,
 		country: 'Woonsocket, RI',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pork-steaks',
@@ -4575,6 +4435,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '3021-slaughterhouse-five-brisket-pork-sausage-turkey',
@@ -4585,6 +4446,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '16561-snake-river-farms-kurobuta-pork-belly',
@@ -4595,6 +4457,7 @@ export const db = [
 		rate: 4,
 		country: 'Boise, ID',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'porchetta-siu-yuk-plus-chimichurri-sauce-for-5-6',
@@ -4605,6 +4468,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pulled-pork-and-chopped-beef-brisket-combo',
@@ -4615,6 +4479,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '23238-pork-tenderloin-sandwich-4-pack',
@@ -4625,6 +4490,7 @@ export const db = [
 		rate: 5,
 		country: 'Huntington, IN',
 		cats: ['porks', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'roast-pork-sandwich-kit-for-8',
@@ -4635,6 +4501,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pulled-pork-4-lbs',
@@ -4645,6 +4512,7 @@ export const db = [
 		rate: 4,
 		country: 'Nashville, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'memphis-pulled-pork-shoulder-4-lbs',
@@ -4655,6 +4523,7 @@ export const db = [
 		rate: 4,
 		country: 'Memphis, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '17347-pulled-pork-3-pound-pack',
@@ -4665,6 +4534,7 @@ export const db = [
 		rate: 5,
 		country: 'Memphis, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '18650-carolina-pulled-pork-sandwich-pack',
@@ -4675,6 +4545,7 @@ export const db = [
 		rate: 4,
 		country: 'Kinston, NC',
 		cats: ['porks', 'sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'stone-porter-beer-pork-chops-4-pack',
@@ -4685,6 +4556,7 @@ export const db = [
 		rate: 5,
 		country: 'Cardiff by the Sea, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pork-ribs',
@@ -4695,6 +4567,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'joes-kc-ribs-and-pulled-pork',
@@ -4705,6 +4578,7 @@ export const db = [
 		rate: 5,
 		country: 'Kansas City, KS',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '1824200000002-pulled-pork-pirogies',
@@ -4715,6 +4589,7 @@ export const db = [
 		rate: 5,
 		country: 'Denver, CO',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'whole-smoked-pork-shoulder',
@@ -4725,6 +4600,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'whole-pork-belly-5-lbs',
@@ -4735,6 +4611,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'spicy-pork-wontons-25-pack',
@@ -4745,6 +4622,7 @@ export const db = [
 		rate: 4,
 		country: 'West Hollywood, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'mofongo-with-roasted-pork-kit-for-4',
@@ -4755,26 +4633,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['porks'],
-	},
-	{
-		id: '18041-ribs-and-pulled-pork-dinner-for-8',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73762/pappys-ribs-and-pulled-pork-dinner-for-8.b1ebab4ba20903bea0fc8ad73df29ddb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Pappy's Smokehouse",
-		dsc: "Pappy's Ribs & Pulled Pork - Dinner for 8",
-		price: 129,
-		rate: 5,
-		country: 'St. Louis, MO',
-		cats: ['porks'],
-	},
-	{
-		id: '18041432432-pulled-pork-pack-serves-12-15',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73798/pappys-pulled-pork-pack-serves-12-15.1960957d09163524732958e85c5441f7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Pappy's Smokehouse",
-		dsc: "Pappy's Pulled Pork Pack - Serves 12-15",
-		price: 139,
-		rate: 4,
-		country: 'St. Louis, MO',
-		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'stone-porter-beer-pork-chops-6-pack',
@@ -4785,6 +4644,7 @@ export const db = [
 		rate: 4,
 		country: 'Cardiff by the Sea, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'bbq-pulled-pork-feast-5-lbs',
@@ -4795,6 +4655,7 @@ export const db = [
 		rate: 5,
 		country: 'Ocean Springs, MS',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'roast-pork-sandwich-kit-4-pack',
@@ -4805,6 +4666,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'cheesy-char-siu-bbq-pork-bao-12-pack',
@@ -4815,6 +4677,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'texas-pork-chops-4-pack',
@@ -4825,6 +4688,7 @@ export const db = [
 		rate: 4,
 		country: 'Belton, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'kansas-city-pulled-pork',
@@ -4835,6 +4699,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'habbersett-scrapple-4-pack',
@@ -4845,6 +4710,7 @@ export const db = [
 		rate: 4,
 		country: 'Bridgeville, DE',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '23238-pork-tenderloin-sandwich-8-pack',
@@ -4855,6 +4721,7 @@ export const db = [
 		rate: 5,
 		country: 'Huntington, IN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'roast-pork-sandwich-4-pack',
@@ -4865,6 +4732,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'asado-de-puerco-stewed-pork-shoulder-for-4',
@@ -4875,6 +4743,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '004-pork-boudin',
@@ -4885,6 +4754,7 @@ export const db = [
 		rate: 4,
 		country: 'Lafayette, LA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'bbq-chopped-pork',
@@ -4895,6 +4765,7 @@ export const db = [
 		rate: 4,
 		country: 'Smithfield, NC',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pork-ribeye-shabu-shabu-kit-for-4',
@@ -4905,6 +4776,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'smoked-pork-loin',
@@ -4915,6 +4787,7 @@ export const db = [
 		rate: 5,
 		country: 'Blanco, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'bbq-pulled-pork-pack-for-8',
@@ -4925,16 +4798,7 @@ export const db = [
 		rate: 5,
 		country: 'Horn Lake, MS',
 		cats: ['porks'],
-	},
-	{
-		id: 'homemade-pork-buns-18-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131675/homemade-pork-buns-18-pack.b3a41e86a48c8c484a3f5e87aeedd511.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'RedFarm',
-		dsc: 'Homemade Pork Buns - 18 Pack',
-		price: 99,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '3831812-legendary-pulled-pork-z-man-sandwich-kit-8-pack',
@@ -4945,6 +4809,7 @@ export const db = [
 		rate: 4,
 		country: 'Kansas City, KS',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '17347-pulled-pork-6-pound-pack',
@@ -4955,6 +4820,7 @@ export const db = [
 		rate: 5,
 		country: 'Memphis, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'duck-lamb-salami-delight-gift-box-4-pack',
@@ -4965,16 +4831,7 @@ export const db = [
 		rate: 5,
 		country: 'Pittsburgh, PA',
 		cats: ['porks'],
-	},
-	{
-		id: 'pulled-pork-and-baby-back-ribs-combo',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115360/pulled-pork-and-baby-back-ribs-combo.65b3eb24682385c2f3b8579b57229b84.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Blue Smoke',
-		dsc: 'Pulled Pork & Baby Back Ribs Combo',
-		price: 129,
-		rate: 4,
-		country: 'New York, NY',
-		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'habbersett-scrapple-and-taylor-pork-roll-combo',
@@ -4985,6 +4842,7 @@ export const db = [
 		rate: 4,
 		country: 'Bridgeville, DE',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'cardiff-crack-tri-tip-and-pork-chops-combo-pack',
@@ -4995,6 +4853,7 @@ export const db = [
 		rate: 5,
 		country: 'Cardiff by the Sea, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'ms-made-double-smoked-pork-sausage-sampler',
@@ -5005,6 +4864,7 @@ export const db = [
 		rate: 5,
 		country: 'Ocean Springs, MS',
 		cats: ['porks', 'sausages'],
+		featured: false,
 	},
 	{
 		id: 'dry-rub-ribs-and-pulled-pork-dinner-for-8',
@@ -5015,6 +4875,7 @@ export const db = [
 		rate: 5,
 		country: 'Nashville, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'whole-duroc-pulled-pork-shoulder-3-4-lbs',
@@ -5025,6 +4886,7 @@ export const db = [
 		rate: 4,
 		country: 'Fort Worth, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: '17th-street-bbq-pulled-pork-pack',
@@ -5035,6 +4897,7 @@ export const db = [
 		rate: 4,
 		country: 'Murphsboro, IL',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pulled-pork-2-lbs',
@@ -5045,6 +4908,7 @@ export const db = [
 		rate: 5,
 		country: 'Germantown, TN',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'chicharron-en-salsa-verde-pork-belly-in-salsa-verde-for-2',
@@ -5055,6 +4919,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'pan-fried-pork-buns-12-pack',
@@ -5065,6 +4930,7 @@ export const db = [
 		rate: 5,
 		country: 'West Hollywood, CA',
 		cats: ['porks'],
+		featured: false,
 	},
 	{
 		id: 'the-gothamist-prosciutto-burrata-sandwich-kit-4-pack',
@@ -5075,26 +4941,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
-	},
-	{
-		id: '15504-original-muffuletta-sandwich-2-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Central Grocery Muffulettas',
-		dsc: 'Original Muffuletta Sandwich - 2-Pack (Serves 6-8)',
-		price: 109,
-		rate: 5,
-		country: 'New Orleans, LA',
-		cats: ['sandwiches'],
-	},
-	{
-		id: 'the-bomb-sandwich-for-4',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Sal, Kris & Charlie's Deli",
-		dsc: 'The Bomb Sandwich for 4',
-		price: 89,
-		rate: 5,
-		country: 'Astoria, NY',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '15428-pittsburgh-party-pack',
@@ -5105,6 +4952,7 @@ export const db = [
 		rate: 4,
 		country: 'Pittsburgh, PA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'pastrami-burnt-end-sandwich-kit',
@@ -5115,16 +4963,7 @@ export const db = [
 		rate: 5,
 		country: 'Los Angeles, CA',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'favorite-sloppy-joe-sandwich',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67768/new-jersey-sloppy-joe-sandwich-feeds-3.b866e4c84e09ad65cb8c6b9f4949ec7d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Town Hall Deli',
-		dsc: 'Favorite Sloppy Joe Sandwich',
-		price: 79,
-		rate: 5,
-		country: 'South Orange, NJ',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'sandwich-best-sellers-4-pack',
@@ -5135,16 +4974,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
-	},
-	{
-		id: '15504-original-muffuletta-sandwich-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133232/original-muffuletta-sandwich-3-pack.2b00693e49ef277bc2b69810709d8fe8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Central Grocery Muffulettas',
-		dsc: 'Original Muffuletta Sandwich - 3 pack (Serves 10-12)',
-		price: 149,
-		rate: 5,
-		country: 'New Orleans, LA',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'meet-the-reubens-sandwich-kit-for-4-6',
@@ -5155,6 +4985,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'italian-beef-sandwich-kit-8-pack',
@@ -5165,6 +4996,7 @@ export const db = [
 		rate: 5,
 		country: 'Chicago, IL',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'campos-philly-cheesesteaks-and-hoagies-combo-4-pack',
@@ -5175,26 +5007,7 @@ export const db = [
 		rate: 4,
 		country: 'Philadelphia, PA',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'the-original-french-dip-sandwich-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85861/the-original-french-dip-6-pack.a52e10de7346a8330f234e2310015a05.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Philippe The Original French Dip',
-		dsc: 'The Original French Dip Sandwich - 6 Pack',
-		price: 139,
-		rate: 4,
-		country: 'Los Angeles, CA',
-		cats: ['sandwiches'],
-	},
-	{
-		id: '23728-beef-on-weck-sandwich-kit-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89891/beef-on-weck-sandwich-kit-4-pack.2e34382035f62d683dda73b11cfbe4e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Anderson's Frozen Custard",
-		dsc: 'Beef on Weck Sandwich Kit - 4 Pack',
-		price: 89,
-		rate: 4,
-		country: 'Buffalo, NY',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'pinocchio-sandwich-kit-4-pack',
@@ -5205,6 +5018,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '18269-monster-sandwich-kit',
@@ -5215,16 +5029,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'favorite-sloppy-joe-sandwich-3-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132713/new-jersey-sloppy-joe-3-pack-serves-9.c5ef8ff07dccdd95de92621c72a831cb.png?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Town Hall Deli',
-		dsc: 'Favorite Sloppy Joe Sandwich - 3 Pack',
-		price: 159,
-		rate: 5,
-		country: 'South Orange, NJ',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '1756745-grilled-specialty-sandwich-4-pack',
@@ -5235,6 +5040,7 @@ export const db = [
 		rate: 4,
 		country: 'Boston, MA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '23728-beef-on-weck-and-frozen-custard-for-4-pack',
@@ -5245,26 +5051,7 @@ export const db = [
 		rate: 5,
 		country: 'Buffalo, NY',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'pats-original-philly-cheesesteak-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87749/pats-original-philly-cheesesteak-4-pack.fe6d8af186d93848f9a5090118fe8b46.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Pat's King of Steaks",
-		dsc: "Pat's Original Philly Cheesesteak - 4 Pack",
-		price: 99,
-		rate: 5,
-		country: 'Philadelphia, PA',
-		cats: ['sandwiches', 'steaks'],
-	},
-	{
-		id: '23699-meatball-sandwich-kit-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89816/meatball-sandwich-kit-6-pack.f4f05520fe4d25f90520ffe80e543f83.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Bartolini’s',
-		dsc: 'Meatball Sandwich Kit - 6 Pack',
-		price: 109,
-		rate: 4,
-		country: 'Chicago, IL',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'famous-cuban-sandwich-kit-for-4',
@@ -5275,6 +5062,7 @@ export const db = [
 		rate: 5,
 		country: 'Miami, FL',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'sandwiches-choose-your-own-4-pack',
@@ -5285,6 +5073,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'matthew-sandwich-kit-4-pack',
@@ -5295,6 +5084,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'reuben-sandwich-kit-serves-2-4',
@@ -5305,6 +5095,7 @@ export const db = [
 		rate: 5,
 		country: 'Bronx, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'chaps-pit-beef-sandwich-kit-8-pack',
@@ -5315,6 +5106,7 @@ export const db = [
 		rate: 4,
 		country: 'Baltimore, MD',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'campos-italian-hoagies-4-pack',
@@ -5325,6 +5117,7 @@ export const db = [
 		rate: 5,
 		country: 'Philadelphia, PA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'swiss-stack-reuben-sandwich-kit-4-pack',
@@ -5335,6 +5128,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'sub-sandwich-sampler-10-pack',
@@ -5345,6 +5139,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-subs-for-4',
@@ -5355,6 +5150,7 @@ export const db = [
 		rate: 5,
 		country: 'Atlantic City, NJ',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '1550410023131-original-muffuletta-sandwich-4-pack-serves-16-20',
@@ -5365,16 +5161,7 @@ export const db = [
 		rate: 5,
 		country: 'New Orleans, LA',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'sandwich-best-sellers-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134378/italian-sandwich-kit-best-sellers-8-pack.7e6c21313e048070dc76d26a6ef1ef5d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Alidoro',
-		dsc: 'Italian Sandwich Kit Best Sellers - 8 Pack',
-		price: 179,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '17577-prime-smoked-beef-brisket-package-for-2',
@@ -5385,6 +5172,7 @@ export const db = [
 		rate: 4,
 		country: 'Washington, DC',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'chopped-brisket-sandwich-kit',
@@ -5395,6 +5183,7 @@ export const db = [
 		rate: 5,
 		country: 'Taylor, TX',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'the-reggie-biscuit-sandwich-kit-for-4',
@@ -5405,6 +5194,7 @@ export const db = [
 		rate: 5,
 		country: 'Portland, OR',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'boloney-rex-sub-sandwich-2-pack',
@@ -5415,6 +5205,7 @@ export const db = [
 		rate: 4,
 		country: 'Hoboken, NJ',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'cheesesteak-and-roast-pork-sandwich-combo-4-pack',
@@ -5425,26 +5216,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['sandwiches'],
-	},
-	{
-		id: '237282-beef-on-weck-sandwich-kit-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89888/beef-on-weck-sandwich-kit-8-pack.7c49b1a9932ebd017c1d276276349617.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Anderson's Frozen Custard",
-		dsc: 'Beef on Weck Sandwich Kit - 8 Pack',
-		price: 129,
-		rate: 5,
-		country: 'Buffalo, NY',
-		cats: ['sandwiches'],
-	},
-	{
-		id: 'blackstone-reuben-sandwich-kit-for-4',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86691/blackstone-reuben-sandwich-kit-for-4.05b9a82b798890ad54c874c996a78ac9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Crescent Moon',
-		dsc: 'The Original Blackstone Reuben Sandwich Kit for 4',
-		price: 99,
-		rate: 4,
-		country: 'Omaha, NE',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'butcher-muffuletta-4-pack',
@@ -5455,6 +5227,7 @@ export const db = [
 		rate: 5,
 		country: 'New Orleans, LA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '15128-philly-cheesesteak-4-pack',
@@ -5465,6 +5238,7 @@ export const db = [
 		rate: 4,
 		country: 'Philadelphia, PA',
 		cats: ['sandwiches', 'steaks'],
+		featured: false,
 	},
 	{
 		id: 'walters-hot-dog-kit-12-pack',
@@ -5475,6 +5249,7 @@ export const db = [
 		rate: 4,
 		country: 'Mamaroneck, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'pastrami-sandwich-kit',
@@ -5485,26 +5260,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['sandwiches'],
-	},
-	{
-		id: 'favorite-sloppy-joe-sandwich-2-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67914/new-jersey-sloppy-joe-2-pack-feeds-6.6eb8ebc6b3227ce05d3d553e5a6e7e53.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Town Hall Deli',
-		dsc: 'Favorite Sloppy Joe Sandwich - 2 Pack',
-		price: 109,
-		rate: 5,
-		country: 'South Orange, NJ',
-		cats: ['sandwiches'],
-	},
-	{
-		id: '18040-new-jersey-sloppy-joe-6-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73824/new-jersey-sloppy-joe-6-pack.8f594005c4a06d35dafc96371608b97d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Millburn Deli',
-		dsc: 'New Jersey Sloppy Joe - 6 Pack',
-		price: 139,
-		rate: 5,
-		country: 'Millburn, NJ',
-		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-campos-philly-sandwiches-6-pack',
@@ -5515,6 +5271,7 @@ export const db = [
 		rate: 4,
 		country: 'Philadelphia, PA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: '154287-primanti-bros-combo-pack-pastrami-sandwich-pack',
@@ -5525,6 +5282,7 @@ export const db = [
 		rate: 4,
 		country: 'Pittsburgh, PA',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'signature-new-york-breakfast-sandwich-kit-for-6',
@@ -5535,6 +5293,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'pastrami-or-corned-beef-sandwich-kit-serves-2-4',
@@ -5545,6 +5304,7 @@ export const db = [
 		rate: 5,
 		country: 'Bronx, NY',
 		cats: ['sandwiches'],
+		featured: false,
 	},
 	{
 		id: 'fresh-ribeye-sausage',
@@ -5555,6 +5315,7 @@ export const db = [
 		rate: 5,
 		country: 'Maurice, LA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '001-5-pound-sausage-sampler',
@@ -5565,16 +5326,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
-	},
-	{
-		id: '6-sausage-sampler-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79253/sausage-sampler-pack-serves-10-12.e2d63273c29b923ca4ad80cf63669b12.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Southside Market & Barbeque',
-		dsc: 'Sausage Sampler Pack - Serves 10-12',
-		price: 89,
-		rate: 5,
-		country: 'Elgin, TX',
-		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'jalapeno-and-cheddar-texas-smoked-sausage',
@@ -5585,6 +5337,7 @@ export const db = [
 		rate: 4,
 		country: 'Austin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'toulouse-sausage-coil-3-pack',
@@ -5595,6 +5348,7 @@ export const db = [
 		rate: 5,
 		country: 'Hayward, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'boudin-sausage-sampler',
@@ -5605,6 +5359,7 @@ export const db = [
 		rate: 5,
 		country: 'Maurice, LA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'brats-choose-your-own-10-pack',
@@ -5615,6 +5370,7 @@ export const db = [
 		rate: 5,
 		country: 'Madison, WI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'korean-bbq-grilling-sausage-choose-your-own-12-pack',
@@ -5625,6 +5381,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '30027-sausages-and-franks-choose-your-own-4-pack',
@@ -5635,6 +5392,7 @@ export const db = [
 		rate: 4,
 		country: 'Wellsville, PA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'bbq-sausage-sampler-15-pack',
@@ -5645,6 +5403,7 @@ export const db = [
 		rate: 5,
 		country: 'Houston, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '17923-the-super-bowl-sausage-special',
@@ -5655,6 +5414,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'wild-game-sausage-best-seller-5-pack',
@@ -5665,6 +5425,7 @@ export const db = [
 		rate: 5,
 		country: 'Ingram, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausages-choose-your-own-24-pack',
@@ -5675,6 +5436,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '15812-hot-italian-sausage',
@@ -5685,6 +5447,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '16893-choose-your-own-sausage-10lb-pack',
@@ -5695,6 +5458,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'grandpas-sweet-italian-sausage-3-lbs',
@@ -5705,6 +5469,7 @@ export const db = [
 		rate: 4,
 		country: 'North Bergen, NJ',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '003-pork-boudin',
@@ -5715,6 +5480,7 @@ export const db = [
 		rate: 4,
 		country: 'Lafayette, LA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'smoked-pork-bacon-sausages-10-links',
@@ -5725,16 +5491,7 @@ export const db = [
 		rate: 5,
 		country: 'Houston, TX',
 		cats: ['sausages'],
-	},
-	{
-		id: 'korean-bbq-sausage-kit-for-8',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132174/korean-bbq-sausage-combo-kit-for-8.8e1946d141ce5cd1e3205c6f0fed21d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Seoul Sausage',
-		dsc: 'Korean BBQ Sausage Kit for 8',
-		price: 99,
-		rate: 4,
-		country: 'Los Angeles, CA',
-		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'bahama-mama-and-knockwurst-sausage-combo-pack',
@@ -5745,6 +5502,7 @@ export const db = [
 		rate: 5,
 		country: 'Columbus, OH',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '16124-sausage-tomato-fennel',
@@ -5755,6 +5513,7 @@ export const db = [
 		rate: 4,
 		country: 'Baltimore, MD',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '1-original-1882-hot-recipe-sausage',
@@ -5765,6 +5524,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'texas-sausage-sampler',
@@ -5775,6 +5535,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '5-jalapeno-cheddar-smoked-sausage',
@@ -5785,6 +5546,7 @@ export const db = [
 		rate: 4,
 		country: 'Elgin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-sausage-jumbo-box',
@@ -5795,6 +5557,7 @@ export const db = [
 		rate: 5,
 		country: 'Delhi, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '2-original-beef-smoked-sausage',
@@ -5805,6 +5568,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'beef-summer-sausage-3-pack',
@@ -5815,26 +5579,7 @@ export const db = [
 		rate: 5,
 		country: 'Warrensburg, MO',
 		cats: ['sausages'],
-	},
-	{
-		id: 'gramercy-tavern-smoked-kielbasa-6-Pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/92800/gramercy-tavern-smoked-kielbasa.c2d5882bf3ed785b85b348f1fe5717a7.png?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Gramercy Tavern',
-		dsc: 'Gramercy Tavern Smoked Kielbasa - 6 Pack',
-		price: 99,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['sausages'],
-	},
-	{
-		id: 'choose-your-own-sausages-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132802/choose-your-own-sausages-8-pack.9d02550f44b749006c3c29d8aa7a31a5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Bovine & Swine',
-		dsc: 'Choose Your Own Sausages - 32 Pack',
-		price: 109,
-		rate: 4,
-		country: 'Jackson, WY',
-		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausages-and-salami-choose-your-own-15-pack',
@@ -5845,6 +5590,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'lamb-merguez-sausage-coil-3-packs-3-pack',
@@ -5855,6 +5601,7 @@ export const db = [
 		rate: 5,
 		country: 'Hayward, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'summer-grill-pack-for-6',
@@ -5865,6 +5612,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'summer-sausage-football',
@@ -5875,6 +5623,7 @@ export const db = [
 		rate: 4,
 		country: 'Portland, OR',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausage-party-choose-your-own-32-pack',
@@ -5885,6 +5634,7 @@ export const db = [
 		rate: 4,
 		country: 'Austin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'bratwurst',
@@ -5895,6 +5645,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: '19398-breakfast-sausage-sampler',
@@ -5905,6 +5656,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'ribs-and-sausage-pack',
@@ -5915,6 +5667,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'docs-hot-links-2',
@@ -5925,6 +5678,7 @@ export const db = [
 		rate: 4,
 		country: 'Gilmer, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausage-cheese-kolaches-12-pack',
@@ -5935,6 +5689,7 @@ export const db = [
 		rate: 5,
 		country: 'Fort Worth, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'les-sausage-series-combo-pack-for-10',
@@ -5945,6 +5700,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'italian-sausage-with-roasted-red-peppers-12-pack',
@@ -5955,6 +5711,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'chicken-and-rosemary-sausages-12-pack',
@@ -5965,6 +5722,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausage-collection',
@@ -5975,6 +5733,7 @@ export const db = [
 		rate: 5,
 		country: 'Indianapolis, IN',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'choose-your-own-sausage-medium-box',
@@ -5985,6 +5744,7 @@ export const db = [
 		rate: 4,
 		country: 'Delhi, NY',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'gastros-sausage-bacon-and-salami-sampler-for-4',
@@ -5995,6 +5755,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'cracked-black-pepper-sausage-8-pack',
@@ -6005,6 +5766,7 @@ export const db = [
 		rate: 5,
 		country: 'Fort Worth, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'sausage-best-seller-16-pack',
@@ -6015,6 +5777,7 @@ export const db = [
 		rate: 5,
 		country: 'Austin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'specialty-sausage-sampler-3-pack',
@@ -6025,6 +5788,7 @@ export const db = [
 		rate: 4,
 		country: 'Hayward, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'italian-sausage-baozza-12-pack',
@@ -6035,6 +5799,7 @@ export const db = [
 		rate: 5,
 		country: 'Pasadena, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'game-sausage-sampler-3-pack',
@@ -6045,6 +5810,7 @@ export const db = [
 		rate: 5,
 		country: 'Hayward, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'texas-sized-sausage-feast',
@@ -6055,6 +5821,7 @@ export const db = [
 		rate: 4,
 		country: 'Houston, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'grandpas-hot-italian-sausage-3-lbs',
@@ -6065,6 +5832,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'polish-smoked-sausage',
@@ -6075,6 +5843,7 @@ export const db = [
 		rate: 5,
 		country: 'Elgin, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'smoked-sausage-2-lbs',
@@ -6085,6 +5854,7 @@ export const db = [
 		rate: 5,
 		country: 'Blanco, TX',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'green-chili-hot-links',
@@ -6095,6 +5865,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['sausages'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-filet-mignon-steaks-gift-box',
@@ -6105,6 +5876,7 @@ export const db = [
 		rate: 5,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-ribeye-steaks-gift-box',
@@ -6115,6 +5887,7 @@ export const db = [
 		rate: 4,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'steaks-and-cakes-date-night-dinner-for-2',
@@ -6125,6 +5898,7 @@ export const db = [
 		rate: 4,
 		country: 'Jessup, MD',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'Prime-holiday-steak-sampler-for-10-12',
@@ -6135,6 +5909,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'bone-in-rib-steak',
@@ -6145,6 +5920,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'american-wagyu-gold-grade-top-sirloins',
@@ -6155,6 +5931,7 @@ export const db = [
 		rate: 5,
 		country: 'Boise, ID',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '2-peter-luger-steak-pack-b',
@@ -6165,6 +5942,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'ribeye-prime-steak-gift-box',
@@ -6175,16 +5953,7 @@ export const db = [
 		rate: 4,
 		country: 'Spokane, WA',
 		cats: ['steaks'],
-	},
-	{
-		id: 'wagyu-filet-mignon-2-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107003/wagyu-filet-mignon-2-pack.5da42476f7d1b7e7cfe58b4d054e6861.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Westholme Wagyu',
-		dsc: 'Wagyu Filet Mignon - 2 Pack',
-		price: 139,
-		rate: 4,
-		country: 'Queensland, Australia',
-		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'dry-aged-usda-prime-black-angus-porterhouse-steak-2-pack',
@@ -6195,6 +5964,7 @@ export const db = [
 		rate: 4,
 		country: 'North Bergen, NJ',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-ribeye-steak',
@@ -6205,6 +5975,7 @@ export const db = [
 		rate: 5,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-filet-mignon-steak',
@@ -6215,6 +5986,7 @@ export const db = [
 		rate: 5,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'sausage-wagyu-steak-sampler-choose-your-own',
@@ -6225,6 +5997,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'steak-dinner-for-2',
@@ -6235,6 +6008,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'cardiff-crack-tri-tips-2-pack',
@@ -6245,6 +6019,7 @@ export const db = [
 		rate: 5,
 		country: 'Cardiff by the Sea, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-filet-mignon-steaks-6-pack',
@@ -6255,6 +6030,7 @@ export const db = [
 		rate: 4,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'wagyu-ny-strip-steaks-2-pack',
@@ -6265,6 +6041,7 @@ export const db = [
 		rate: 5,
 		country: 'Queensland, Australia',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-new-york-steaks-gift-box',
@@ -6275,6 +6052,7 @@ export const db = [
 		rate: 4,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'choice-strip-steak-6-pack',
@@ -6285,16 +6063,7 @@ export const db = [
 		rate: 4,
 		country: 'Calumet City, IL',
 		cats: ['steaks'],
-	},
-	{
-		id: 'wagyu-coulotte-steak-4-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103374/wagyu-coulotte-10-oz.8f1a8f4075160241d9698d3f4b1bf488.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Westholme Wagyu',
-		dsc: 'Wagyu Coulotte Steak - 4 Pack',
-		price: 155,
-		rate: 4,
-		country: 'Queensland, Australia',
-		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'ribeye-and-filet-mignon-prime-steak-gift-box',
@@ -6305,6 +6074,7 @@ export const db = [
 		rate: 5,
 		country: 'Spokane, WA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'choice-bone-in-ribeyes-2-choice-new-york-strip-steaks',
@@ -6315,6 +6085,7 @@ export const db = [
 		rate: 4,
 		country: 'Brea, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'fourth-of-july-steak-dinner-for-4-6',
@@ -6325,6 +6096,7 @@ export const db = [
 		rate: 4,
 		country: 'Jessup, MD',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'american-wagyu-strip-steaks-2-pack',
@@ -6335,6 +6107,7 @@ export const db = [
 		rate: 4,
 		country: 'Woonsocket, RI',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '13-peter-luger-steak-pack-a',
@@ -6345,6 +6118,7 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'world-famous-shrimp-cocktail',
@@ -6355,16 +6129,7 @@ export const db = [
 		rate: 5,
 		country: 'Indianapolis, IN',
 		cats: ['steaks'],
-	},
-	{
-		id: 'chateaubriand-steak-for-2',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105249/chateaubriand-steak-for-2.2cb9ed7cc3227fd26c455d51ca9745ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: 'Keens Steakhouse',
-		dsc: 'Chateaubriand Steak for Two',
-		price: 159,
-		rate: 5,
-		country: 'New York, NY',
-		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'choice-center-cut-new-york-strip-steaks',
@@ -6375,6 +6140,7 @@ export const db = [
 		rate: 4,
 		country: 'Brea, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'strip-steak-gift-box',
@@ -6385,6 +6151,7 @@ export const db = [
 		rate: 5,
 		country: 'Dayton, OH',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'ribeye-steaks-8-pack',
@@ -6395,6 +6162,7 @@ export const db = [
 		rate: 4,
 		country: 'Madison, WI',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'steak-au-poivre-kit-2-pack',
@@ -6405,6 +6173,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '16124-steak-mushroom-onion-and-gruyere',
@@ -6415,6 +6184,7 @@ export const db = [
 		rate: 4,
 		country: 'Baltimore, MD',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'upper-prime-black-angus-tomahawks',
@@ -6425,6 +6195,7 @@ export const db = [
 		rate: 5,
 		country: 'San Francisco, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '15996-100-fullblood-wagyu-beef-filet-mignon-steaks',
@@ -6435,6 +6206,7 @@ export const db = [
 		rate: 4,
 		country: 'Golden, NM',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '16547-american-kobe-sirloins',
@@ -6445,6 +6217,7 @@ export const db = [
 		rate: 5,
 		country: 'Boise, ID',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-steaks-sampler-6-pack',
@@ -6455,6 +6228,7 @@ export const db = [
 		rate: 5,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'california-reserve-new-york-steak',
@@ -6465,6 +6239,7 @@ export const db = [
 		rate: 4,
 		country: 'San Rafael, CA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'stk-signature-4-steaks',
@@ -6475,6 +6250,7 @@ export const db = [
 		rate: 4,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'halibut-steak',
@@ -6485,6 +6261,7 @@ export const db = [
 		rate: 5,
 		country: 'Seattle, WA',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'st-elmo-gift-box',
@@ -6495,6 +6272,7 @@ export const db = [
 		rate: 4,
 		country: 'Indianapolis, IN',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'wagyu-skirt-steak-4-pack',
@@ -6505,16 +6283,7 @@ export const db = [
 		rate: 4,
 		country: 'Los Angeles, CA',
 		cats: ['steaks'],
-	},
-	{
-		id: 'pats-original-philly-cheesesteak-8-pack',
-		img: 'https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87773/pats-original-philly-cheesesteak-8-pack.1f350a7bf2852552bf219d6609405c69.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1',
-		name: "Pat's King of Steaks",
-		dsc: "Pat's Original Philly Cheesesteak - 8 Pack",
-		price: 179,
-		rate: 5,
-		country: 'Philadelphia, PA',
-		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '17406-waygu-burgers-steaks-grill-pack',
@@ -6525,6 +6294,7 @@ export const db = [
 		rate: 5,
 		country: 'Golden, NM',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'tomahawk-ribsteak-dinner-for-2',
@@ -6535,6 +6305,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'dry-aged-usda-prime-black-angus-boneless-ny-strip-steaks-4-pack',
@@ -6545,6 +6316,7 @@ export const db = [
 		rate: 5,
 		country: 'North Bergen, NJ',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '17-peter-luger-extra-thick-cut-bacon-6-pack',
@@ -6555,6 +6327,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'dry-aged-usda-prime-black-angus-boneless-rib-steak-30-days-10-thick-13-15-oz',
@@ -6565,6 +6338,7 @@ export const db = [
 		rate: 4,
 		country: 'North Bergen, NJ',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'italian-style-petite-filet-skewers-steak-spiedini-26-pack',
@@ -6575,6 +6349,7 @@ export const db = [
 		rate: 4,
 		country: 'Brooklyn, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: 'steak-au-poivre-kit-4-pack',
@@ -6585,6 +6360,7 @@ export const db = [
 		rate: 5,
 		country: 'New York, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 	{
 		id: '3-peter-luger-steak-pack-c',
@@ -6595,5 +6371,6 @@ export const db = [
 		rate: 5,
 		country: 'Brooklyn, NY',
 		cats: ['steaks'],
+		featured: false,
 	},
 ];
