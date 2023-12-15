@@ -1,5 +1,6 @@
-import { showCatCount } from './script/db.js';
-showCatCount();
+import { createItemCards } from './script/cards.js';
+import { showCatCount } from './script/db-utils.js';
+import { menu } from './script/menu.js';
 
-import { createItemCard } from './script/cards.js';
-createItemCard();
+showCatCount(menu);
+createItemCards(menu);

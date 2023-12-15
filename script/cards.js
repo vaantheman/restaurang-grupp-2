@@ -1,5 +1,3 @@
-import { db } from './db.js';
-
 const generateImgElement = (img) => {
     const imgElement = document.createElement('img');
     imgElement.src = img;
@@ -27,10 +25,8 @@ const generateInfoElement = (dsc) => {
     return infoElement;
 };
 
-export const createItemCard = () => {
-    const getFoodInfo = db;
-
-    getFoodInfo.forEach((item) => {
+export const createItemCards = (foodList) => {
+    foodList.forEach((item) => {
         const itemWrapper = document.getElementById('item-wrapper');
         const itemContainer = document.createElement('div');
         itemContainer.className = 'item-container';
