@@ -1,52 +1,5 @@
-import { db, showCatCount } from './db.js';
-
+import { showCatCount } from './script/db.js';
 showCatCount();
 
-let getFoodInfo = db;
-
-console.log(getFoodInfo);
-
-function generateImgElement(img) {
-    const imgElement = document.createElement('img');
-    imgElement.src = img;
-    return imgElement;
-}
-
-function generateNameElement(name) {
-    const nameElement = document.createElement('h3');
-    nameElement.className = 'item-container__title';
-    nameElement.innerText = name;
-    return nameElement;
-}
-
-function generatePriceElement(price) {
-    const priceElement = document.createElement('p');
-    priceElement.className = 'item-container__price';
-    priceElement.innerText = price;
-    return priceElement;
-}
-
-function generateInfoElement(dsc) {
-    const infoElement = document.createElement('p');
-    infoElement.className = 'item-container__dsc';
-    infoElement.innerText = dsc;
-    return infoElement;
-}
-
-const itemWrapper = document.getElementById('item-wrapper');
-
-function createItemCard() {
-    getFoodInfo.forEach((item) => {
-        const itemContainer = document.createElement('div');
-        itemContainer.className = 'item-container';
-
-        itemContainer.appendChild(generateImgElement(item.img));
-        itemContainer.appendChild(generateNameElement(item.name));
-        itemContainer.appendChild(generateInfoElement(item.dsc));
-        itemContainer.appendChild(generatePriceElement(item.price));
-
-        itemWrapper.appendChild(itemContainer);
-    });
-}
-
+import { createItemCard } from './script/cards.js';
 createItemCard();
