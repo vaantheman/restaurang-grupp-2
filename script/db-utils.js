@@ -9,6 +9,19 @@ export const showCatCount = (menu) => {
 	console.log({ fullMenu: menu });
 };
 
+export const showFeaturedItems = (menu) => {
+	let numFeatured = 0;
+
+	for (const { featured, name, cats } of menu) {
+		if (featured) {
+			++numFeatured;
+			console.log({ featured, name, cat: cats[0] });
+		}
+	}
+
+	console.log(`${numFeatured} featured items in menu`);
+};
+
 const allCats = [
 	'starters',
 	'bbqs',
