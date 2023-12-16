@@ -39,7 +39,7 @@ export const createItemCard = () => {
         itemContainer.appendChild(generateImgElement(item.img));
         itemContainer.appendChild(generateNameElement(item.name));
         itemContainer.appendChild(generateInfoElement(item.dsc));
-        itemContainer.appendChild(generatePriceElement(item.price));
+        itemContainer.appendChild(generatePriceElement(`${item.price} kr`));
 
         itemContainer.appendChild(addToCartButton(item));
 
