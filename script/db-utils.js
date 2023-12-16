@@ -1,6 +1,6 @@
 import { getSearchTerm } from "./search.js";
 
-export const showCatCount = (menu) => {
+export const printCatCount = (menu) => {
 	for (const cat of allCats) {
 		console.log(
 			cat,
@@ -11,7 +11,7 @@ export const showCatCount = (menu) => {
 	console.log({ fullMenu: menu });
 };
 
-export const showFeaturedItems = (menu) => {
+export const printFeaturedItems = (menu) => {
 	let numFeatured = 0;
 
 	for (const { featured, name, cats } of menu) {

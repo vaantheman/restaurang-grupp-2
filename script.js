@@ -1,8 +1,8 @@
 import { createItemCards } from './script/cards.js';
-import { printMenu, showCatCount, showFeaturedItems } from './script/db-utils.js';
+import { printCatCount, printFeaturedItems, printMenu } from './script/db-utils.js';
 import { menu } from './script/menu.js';
 
-showCatCount(menu);
-showFeaturedItems(menu);
+printCatCount(menu);
+printFeaturedItems(menu);
 printMenu(menu);
 createItemCards(menu);
