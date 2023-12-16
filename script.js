@@ -6,5 +6,5 @@ import { searchForTermInMenu } from './script/search.js';
 printCatCount(menu);
 printFeaturedItems(menu);
 printMenu(menu);
-console.log(searchForTermInMenu('New York', menu));
+console.log(searchForTermInMenu('dUcK', menu));
 createItemCards(menu);

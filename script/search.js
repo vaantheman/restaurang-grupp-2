@@ -1,12 +1,12 @@
 export const searchForTermInMenu = (term, menu) => {
-	return menu.filter(item => getSearchTerm(item).includes(term));
+	return menu.filter(item => getSearchTerm(item).includes(term.toLowerCase()));
 };
 
 export const getSearchTerm = ({ country, name, dsc }) => {
 	const isState = country.search(/,\s[A-Z][A-Z]$/) !== -1;
 	const state = isState ? usStates[country.slice(-2)] : '';
 
-	return `${name} ${dsc} ${country} ${state}`;
+	return `${name} ${dsc} ${country} ${state}`.toLowerCase();
 };
 
 const usStates = {
