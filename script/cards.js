@@ -1,4 +1,5 @@
 import { db } from './db.js';
+import { addToCartButton } from './addToCartBtn.js';
 
 const generateImgElement = (img) => {
     const imgElement = document.createElement('img');
@@ -39,6 +40,8 @@ export const createItemCard = () => {
         itemContainer.appendChild(generateNameElement(item.name));
         itemContainer.appendChild(generateInfoElement(item.dsc));
         itemContainer.appendChild(generatePriceElement(item.price));
+
+        itemContainer.appendChild(addToCartButton(item));
 
         itemWrapper.appendChild(itemContainer);
     });
