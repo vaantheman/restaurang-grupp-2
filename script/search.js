@@ -1,3 +1,7 @@
+export const searchForTermInMenu = (term, menu) => {
+	return menu.filter(item => getSearchTerm(item).includes(term));
+};
+
 export const getSearchTerm = ({ country, name, dsc }) => {
 	const isState = country.search(/,\s[A-Z][A-Z]$/) !== -1;
 	const state = isState ? usStates[country.slice(-2)] : '';
