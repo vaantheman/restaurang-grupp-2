@@ -15,12 +15,21 @@
         />
     </head>
     <body>
+        <button data-open-modal class="open-modal">Your Order</button>
+
+        <dialog data-modal class="modal-wrapper">
+            <h2>Cart</h2>
+            <ul id="items-list"></ul>
+            <span id="total-price"></span>
+            <button data-close-modal class="close-modal">close</button>
+        </dialog>
+
         <div id="item-wrapper">
             <!-- <div class="item-container">
                 <img src="" alt="" />
                 <h3 class="item-container__title"></h3>
                 <p class="item-container__dsc"></p>
-			    <p class="item-container__price"></p>
+                <p class="item-container__price"></p>
                 <button></button>
             </div> -->
         </div>
