@@ -4,5 +4,4 @@ import { cartModal } from './script/cartDisplay.js';
 
 showCatCount();
 createItemCard();
-
 cartModal();

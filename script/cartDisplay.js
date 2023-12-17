@@ -4,13 +4,14 @@ export const cartModal = () => {
     const modal = document.querySelector('[data-modal]');
 
     openButton.addEventListener('click', () => {
+        cartItemsDisplay();
         modal.showModal();
     });
 
     closeButton.addEventListener('click', () => {
+        cartItemsDisplay();
         modal.close();
     });
-    cartItemsDisplay();
 };
 
 export const cartItemsDisplay = () => {
@@ -20,6 +21,7 @@ export const cartItemsDisplay = () => {
     const itemsList = document.getElementById('items-list');
     const totalPriceElement = document.getElementById('total-price');
 
+    totalPriceElement.innerHTML = '';
     itemsList.innerHTML = '';
 
     storageList.forEach((storageItem) => {
