@@ -16,7 +16,6 @@ export const cartModal = () => {
 
 export const cartItemsDisplay = () => {
     const storageList = JSON.parse(localStorage.getItem('cart')) || [];
-
     const cartDisplayWrapper = document.querySelector('[data-modal]');
     const itemsList = document.getElementById('items-list');
     const totalPriceElement = document.getElementById('total-price');
@@ -24,9 +23,15 @@ export const cartItemsDisplay = () => {
     totalPriceElement.innerHTML = '';
     itemsList.innerHTML = '';
 
-    storageList.forEach((storageItem) => {
+    const hideItemDuplicate = storageList.filter(
+        (itemElement, index, array) =>
+            index === array.findIndex((element) => element.name === itemElement.name)
+    );
+
+    hideItemDuplicate.forEach((storageItem) => {
         const itemsElement = document.createElement('li');
-        itemsElement.textContent = `${storageItem.name} - ${storageItem.price.toFixed(2)} kr`;
+        const totalAmount = (storageItem.quantity * storageItem.price).toFixed(2);
+        itemsElement.textContent = `${storageItem.name} - ${storageItem.quantity} - ${totalAmount} kr`;
 
         const calculateTotalPrice = (items) => {
             return items.reduce((accTotal, currentItem) => accTotal + currentItem.price, 0);
