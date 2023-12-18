@@ -1,6 +1,6 @@
 import { cartItemsDisplay } from './cartDisplay.js';
 
-export const addToStorage = (item) => {
+export const addToLocalStorage = (item) => {
     const cartItem = { name: item.name, price: item.price };
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     cartItems.push(cartItem);
