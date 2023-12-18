@@ -1,30 +1,23 @@
 import { menu } from "./menu.js";
+import { searchForTermInMenu } from "./search.js";
+import { createItemCards } from "./cards.js";
+let timeout;
 const txtsearch = document.getElementById('search-box');
 
-function handler (){
-
-    //getFeaturedItems = (menu) => return ['food1', 'food2']
-    //createItemCards(det du får fråon funktionen ovan)
-
-    console.log(txtsearch.value);
-}
-
-txtsearch.addEventListener('keypress', debounce(handler, 300));
-
-function debounce(func, ms)
-{
-    let timeout;
-    return (...args) =>
-    {
-    if (timeout){
+function handler() {
+    if (timeout) {
         clearTimeout(timeout);
     }
     clearTimeout(timeout);
-    timeout = setTimeout(() =>
-     {
-    func();
-     }, ms);
-
-    }
+    timeout = setTimeout(() => {
+        const foundItem = searchForTermInMenu(txtsearch.value, menu);
+        createItemCards(foundItem);
+    }, 1000);
 }
+
+export const setUpSearch = () => {
+    txtsearch.addEventListener('keypress', handler);
+}
+
+
 
