@@ -10,3 +10,4 @@ printMenu(menu);
 console.log(searchForTermInMenu('dUcK', menu));
 createItemCards(menu);
 cartModal();
+
