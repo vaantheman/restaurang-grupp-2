@@ -1,3 +1,5 @@
+import { quantitySelector } from './quantitySelector.js';
+
 export const cartModal = () => {
     const openButton = document.querySelector('[data-open-modal]');
     const closeButton = document.querySelector('[data-close-modal]');
@@ -31,7 +33,7 @@ export const cartItemsDisplay = () => {
     hideItemDuplicate.forEach((storageItem) => {
         const itemsElement = document.createElement('li');
         const totalAmount = (storageItem.quantity * storageItem.price).toFixed(2);
-        itemsElement.textContent = `${storageItem.name} - ${storageItem.quantity} - ${totalAmount} kr`;
+        itemsElement.textContent = `${storageItem.name} - ${totalAmount} kr`;
 
         const calculateTotalPrice = (items) => {
             return items.reduce((accTotal, currentItem) => accTotal + currentItem.price, 0);
@@ -40,6 +42,7 @@ export const cartItemsDisplay = () => {
         totalPriceElement.innerText = `Total Price: ${totalPrice.toFixed(2)} kr`;
 
         itemsList.appendChild(itemsElement);
+        itemsElement.append(quantitySelector(storageItem.quantity));
         cartDisplayWrapper.appendChild(itemsList);
         cartDisplayWrapper.appendChild(totalPriceElement);
     });
