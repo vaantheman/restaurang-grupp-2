@@ -1,4 +1,6 @@
-export const showCatCount = (menu) => {
+import { getSearchTerm } from "./search.js";
+
+export const printCatCount = (menu) => {
 	for (const cat of allCats) {
 		console.log(
 			cat,
@@ -9,7 +11,7 @@ export const showCatCount = (menu) => {
 	console.log({ fullMenu: menu });
 };
 
-export const showFeaturedItems = (menu) => {
+export const printFeaturedItems = (menu) => {
 	let numFeatured = 0;
 
 	for (const { featured, name, cats } of menu) {
@@ -20,6 +22,12 @@ export const showFeaturedItems = (menu) => {
 	}
 
 	console.log(`${numFeatured} featured items in menu`);
+};
+
+export const printMenu = (menu) => {
+	for (const item of menu) {
+		console.log({ item, searchTerm: getSearchTerm(item) });
+	}
 };
 
 const allCats = [
