@@ -24,8 +24,8 @@ export const cartItemsDisplay = () => {
     itemsList.innerHTML = '';
 
     const hideItemDuplicate = storageList.filter(
-        (itemElement, index, array) =>
-            index === array.findIndex((element) => element.name === itemElement.name)
+        (cartItem, index, array) =>
+            index === array.findIndex((element) => element.name === cartItem.name)
     );
 
     hideItemDuplicate.forEach((storageItem) => {
