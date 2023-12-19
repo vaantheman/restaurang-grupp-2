@@ -1,3 +1,7 @@
+export const searchForFeaturedItems = menu => {
+	return menu.filter(item => item.featured);
+};
+
 export const searchForTermInMenu = (term, menu) => {
 	return menu.filter(item => getSearchTerm(item).includes(term.toLowerCase()));
 };
