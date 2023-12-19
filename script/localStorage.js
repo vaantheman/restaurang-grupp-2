@@ -1,16 +1,15 @@
 import { cartItemsDisplay } from './cartDisplay.js';
 
 export const addToLocalStorage = (item) => {
-    const cartItem = { name: item.name, price: item.price };
+    const cartItem = { ...item };
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-    cartItems.push(cartItem);
 
-    const itemIndex = cartItems.find((cartItem) => cartItem.name === item.name);
+    const itemIndex = cartItems.find((cartItem) => cartItem.id === item.id);
 
     if (itemIndex) {
         itemIndex.quantity = (itemIndex.quantity || 0) + 1;
     } else {
-        cartItems.push({ ...item, quantity: 1 });
+        cartItems.push({ ...cartItem, quantity: 1 });
     }
 
     localStorage.setItem('cart', JSON.stringify(cartItems));

@@ -25,12 +25,12 @@ export const cartItemsDisplay = () => {
     totalPriceElement.innerHTML = '';
     itemsList.innerHTML = '';
 
-    const hideItemDuplicate = storageList.filter(
-        (cartItem, index, array) =>
-            index === array.findIndex((element) => element.name === cartItem.name)
-    );
+    // const hideItemDuplicate = storageList.filter(
+    //     (cartItem, index, array) =>
+    //         index === array.findIndex((element) => element.name === cartItem.name)
+    // );
 
-    hideItemDuplicate.forEach((storageItem) => {
+    storageList.forEach((storageItem) => {
         const itemsElement = document.createElement('li');
         const totalAmount = (storageItem.quantity * storageItem.price).toFixed(2);
         itemsElement.textContent = `${storageItem.name} - ${totalAmount} kr`;

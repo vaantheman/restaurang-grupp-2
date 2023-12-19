@@ -5,7 +5,6 @@ export const addToCartButton = (item) => {
     addToCartBtn.innerText = 'add to cart';
 
     addToCartBtn.addEventListener('click', () => {
-        // addToCartBtn.disabled = true;
         addToLocalStorage(item);
     });
 
