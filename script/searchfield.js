@@ -1,8 +1,9 @@
 import { menu } from "./menu.js";
 import { searchForTermInMenu } from "./search.js";
 import { createItemCards } from "./cards.js";
-let timeout;
+
 const txtsearch = document.getElementById('search-box');
+let timeout;
 
 function handler() {
     if (timeout) {
