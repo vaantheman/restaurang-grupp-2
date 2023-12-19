@@ -12,7 +12,7 @@ export const menu = [
 		"cats": [
 			"bbqs"
 		],
-		"featured": false
+		"featured": true
 	},
 	{
 		"id": "005-kings-carolina-oink-sampler",
@@ -38,7 +38,7 @@ export const menu = [
 		"cats": [
 			"bbqs"
 		],
-		"featured": false
+		"featured": true
 	},
 	{
 		"id": "whole-brisket-texas-bbq-sauce",
