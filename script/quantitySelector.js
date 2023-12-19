@@ -6,7 +6,6 @@ export const incrementButton = (item) => {
     incrementbtn.className = 'increment-btn';
 
     incrementbtn.addEventListener('click', () => {
-        console.log('clicklifhdddddddddddddddddddddddddddddddddckclick');
         incrementQty(item);
     });
 
@@ -19,16 +18,15 @@ const decrementButton = (item) => {
     decrementbtn.className = 'decrement-btn';
 
     decrementbtn.addEventListener('click', () => {
-        console.log('clicklifhddddddddddddddddddddddjhhhdddddddddddckclick');
         decrementQty(item);
     });
 
     return decrementbtn;
 };
 
-const showQuantity = (qty) => {
+const showQuantity = (quantity) => {
     const showQuantity = document.createElement('span');
-    showQuantity.innerText = qty;
+    showQuantity.innerText = quantity;
     return showQuantity;
 };
 
@@ -36,7 +34,7 @@ export const quantitySelector = (item) => {
     const container = document.createElement('div');
 
     container.appendChild(decrementButton(item));
-    container.appendChild(showQuantity(item));
+    container.appendChild(showQuantity(item.quantity));
     container.appendChild(incrementButton(item));
     return container;
 };

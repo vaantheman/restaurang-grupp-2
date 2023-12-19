@@ -35,14 +35,22 @@ export const cartItemsDisplay = () => {
         const totalAmount = (storageItem.quantity * storageItem.price).toFixed(2);
         itemsElement.textContent = `${storageItem.name} - ${totalAmount} kr`;
 
-        const calculateTotalPrice = (items) => {
-            return items.reduce((accTotal, currentItem) => accTotal + currentItem.price, 0);
-        };
-        const totalPrice = calculateTotalPrice(storageList);
-        totalPriceElement.innerText = `Total Price: ${totalPrice.toFixed(2)} kr`;
+        let totalPrice = 0;
+
+        storageList.forEach((item) => {
+            totalPrice += (item.price || 0) * (item.quantity || 0);
+        });
+
+        totalPriceElement.innerText = `Total price: ${totalPrice.toFixed(2)} kr`;
+
+        // const calculateTotalPrice = (items) => {
+        //     return items.reduce((accTotal, currentItem) => accTotal + currentItem.price, 0);
+        // };
+        // const totalPrice = calculateTotalPrice(storageList);
+        // totalPriceElement.innerText = `Total Price: ${totalPrice.toFixed(2)} kr`;
 
         itemsList.appendChild(itemsElement);
-        itemsElement.append(quantitySelector(storageItem.quantity));
+        itemsElement.append(quantitySelector(storageItem));
         cartDisplayWrapper.appendChild(itemsList);
         cartDisplayWrapper.appendChild(totalPriceElement);
     });
