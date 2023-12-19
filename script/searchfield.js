@@ -3,9 +3,8 @@ import { searchForTermInMenu } from "./search.js";
 import { createItemCards } from "./cards.js";
 
 const txtsearch = document.getElementById('search-box');
-let timeout;
-
-function handler() {
+const handler = () => {
+    let timeout;
     if (timeout) {
         clearTimeout(timeout);
     }
@@ -15,7 +14,6 @@ function handler() {
         createItemCards(foundItem);
     }, 1000);
 }
-
 export const setUpSearch = () => {
     txtsearch.addEventListener('keypress', handler);
 }
