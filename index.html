@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <script src="script.js" type="module" defer></script>
-        <link rel="stylesheet" href="style.css" />
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <link rel="stylesheet" href="styles/index.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -16,7 +17,6 @@
     </head>
     <body>
         <button data-open-modal class="open-modal">Your Order</button>
-
         <dialog data-modal class="modal-wrapper">
             <h2>Cart</h2>
             <ul id="items-list">
@@ -30,7 +30,7 @@
                 </li> -->
             </ul>
             <span id="total-price"></span>
-            <button data-close-modal class="close-modal">close</button>
+            <button data-close-modal class="close-modal"><i class="fa-solid fa-xmark"></i></button>
         </dialog>
 
         <div id="item-wrapper">

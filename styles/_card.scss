@@ -1,19 +1,21 @@
 #item-wrapper {
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(2, 200px);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     .item-container {
         border: 2px solid #000;
         width: 200px;
-        height: 300px;
+        height: 200px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
         text-align: center;
         img {
-            width: 80px;
-            height: 100px;
+            width: 100px;
+            height: 80px;
         }
     }
 }
