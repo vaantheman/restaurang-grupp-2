@@ -1,11 +1,12 @@
-
 import { createItemCards } from './script/cards.js';
 import { cartModal } from './script/cartDisplay.js';
 import { menu } from './script/menu.js';
-import { searchForFeaturedItems } from "./script/search.js";
+import { confirm } from './script/orderConfirmBtn.js';
+import { searchForFeaturedItems } from './script/search.js';
 import { setUpSearch } from './script/searchfield.js';
 import { handleUrlParams } from './script/url.js';
 
+confirm();
 /* APP SETUP */
 handleUrlParams();
 cartModal();
