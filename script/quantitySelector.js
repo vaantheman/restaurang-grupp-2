@@ -26,6 +26,7 @@ const decrementButton = (item) => {
 
 const showQuantity = (quantity) => {
     const showQuantity = document.createElement('span');
+    showQuantity.className = 'show-quantity';
     showQuantity.innerText = quantity;
     return showQuantity;
 };
