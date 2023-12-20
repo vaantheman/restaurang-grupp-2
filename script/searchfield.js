@@ -3,8 +3,9 @@ import { searchForTermInMenu } from "./search.js";
 import { createItemCards } from "./cards.js";
 
 const txtsearch = document.getElementById('search-box');
+let timeout; // must be outside handler to avoid being reset to undefined
+
 const handler = () => {
-    let timeout;
     if (timeout) {
         clearTimeout(timeout);
     }
