@@ -1,3 +1,7 @@
+export const getAdminStatus = () => {
+	return localStorage.getItem('admin');
+};
+
 export const generateAdminElements = (item) => {
 	const toggleFeaturedBtn = document.createElement('button');
 	toggleFeaturedBtn.innerText = item.featured ? 'Remove featured' : 'Add Featured';

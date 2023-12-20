@@ -1,5 +1,5 @@
 import { addToCartButton } from './addToCartBtn.js';
-import { generateAdminElements } from './admin.js';
+import { generateAdminElements, getAdminStatus } from './admin.js';
 
 const generateImgElement = (img) => {
     const imgElement = document.createElement('img');
@@ -28,7 +28,7 @@ const generateInfoElement = (dsc) => {
     return infoElement;
 };
 
-export const createItemCards = (foodList, isAdmin) => {
+export const createItemCards = (foodList) => {
     const itemWrapper = document.getElementById('item-wrapper');
     itemWrapper.innerHTML = '';
 
@@ -43,7 +43,7 @@ export const createItemCards = (foodList, isAdmin) => {
 
         itemContainer.appendChild(addToCartButton(item));
 
-				if(isAdmin){
+				if(getAdminStatus()){
 					itemContainer.appendChild(generateAdminElements(item));
 				}
 

@@ -3,7 +3,13 @@ export const handleUrlParams = () => {
 
 	if (params.has('table')) {
 		localStorage.setItem('table', params.get('table'));
-		history.replaceState(null, '', 'index.html');
 	}
 
+	if (params.has('admin')) {
+		localStorage.setItem('admin', params.get('admin'));
+	} else {
+		localStorage.removeItem('admin');
+	}
+
+	history.replaceState(null, '', 'index.html');
 };
