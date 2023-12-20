@@ -15,5 +15,9 @@
             width: 80px;
             height: 100px;
         }
+
+				&--deleted {
+						opacity: 0.5;
+				}
     }
 }

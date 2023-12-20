@@ -44,7 +44,7 @@ export const createItemCards = (foodList) => {
         itemContainer.appendChild(addToCartButton(item));
 
 				if(getAdminStatus()){
-					itemContainer.appendChild(generateAdminElements(item));
+					generateAdminElements(item, itemContainer);
 				}
 
         itemWrapper.appendChild(itemContainer);
