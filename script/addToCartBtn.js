@@ -2,7 +2,7 @@ import { addToLocalStorage } from './localStorage.js';
 
 export const addToCartButton = (item) => {
     const addToCartBtn = document.createElement('button');
-    addToCartBtn.innerText = 'add to cart';
+    addToCartBtn.innerText = 'Place Order';
 
     addToCartBtn.addEventListener('click', () => {
         addToLocalStorage(item);
