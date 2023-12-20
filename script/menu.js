@@ -1,3 +1,5 @@
+/* DISCLAIMER: all rights reserved to creator of github repository https://github.com/igdev116/free-food-menus-api under ISC per package declaration */
+
 export const menu = [
 	{
 		"id": "ribs-brisket-and-burnt-ends",
@@ -10,7 +12,7 @@ export const menu = [
 		"cats": [
 			"bbqs"
 		],
-		"featured": false
+		"featured": true
 	},
 	{
 		"id": "005-kings-carolina-oink-sampler",
@@ -36,7 +38,7 @@ export const menu = [
 		"cats": [
 			"bbqs"
 		],
-		"featured": false
+		"featured": true
 	},
 	{
 		"id": "whole-brisket-texas-bbq-sauce",
