@@ -1,0 +1,86 @@
+.btn-selector {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    button {
+        height: 2rem;
+        width: 5rem;
+        font-size: 1rem;
+        margin: 5px;
+        background-color: #fff;
+        border-radius: 14px;
+        border: transparent;
+        box-shadow: 0px 2px 5px;
+    }
+}
+
+.item-container__btn {
+    margin: 3px;
+    padding: 0 5px;
+    border-radius: 8px;
+    border: transparent;
+    box-shadow: 0px 1px 2px;
+}
+
+.open-modal {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    width: 12rem;
+    height: 2.4rem;
+    border-radius: 14px;
+    border: transparent;
+    box-shadow: 0px 2px 5px;
+}
+.close-modal {
+    position: absolute;
+    width: 50px;
+    font-size: 2rem;
+    right: 10px;
+    top: 10px;
+    border: transparent;
+    background: transparent;
+}
+.close-modal:hover {
+    color: #9d0707;
+    scale: 1.2;
+    background: transparent;
+}
+button:hover {
+    color: #fff;
+    background-color: #9d0707;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    left: 25%;
+    width: 200px;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 14px;
+    border: transparent;
+    box-shadow: 0px 2px 5px;
+}
+
+.decrement-btn,
+.increment-btn {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: transparent;
+    box-shadow: 0 0 1px;
+}
+
+.menuBtn {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    width: 12rem;
+    height: 2.4rem;
+    border-radius: 14px;
+    border: transparent;
+    box-shadow: 0px 2px 5px;
+}
