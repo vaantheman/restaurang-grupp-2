@@ -1,3 +1,4 @@
+import { setupCategoriesButtons } from './script/buttons.js';
 import { createItemCards } from './script/cards.js';
 import { cartModal } from './script/cartDisplay.js';
 import { menu } from './script/menu.js';
@@ -11,6 +12,7 @@ confirm();
 handleUrlParams();
 cartModal();
 setUpSearch();
+setupCategoriesButtons();
 createItemCards(searchForFeaturedItems(menu));
 
 /* DEBUGGING */
