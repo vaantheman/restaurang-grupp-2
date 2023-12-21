@@ -1,7 +1,7 @@
 .modal-wrapper {
-    // position: absolute;
-    width: 600px;
-    height: 900px;
+	height: auto;
+	width: auto;
+	margin: auto;
     // display: flex;
     // flex-direction: column;
     text-align: center;
@@ -11,7 +11,7 @@
     }
     #items-list {
         font-size: 14px;
-        box-shadow: 1px 1px 4px;
+        // box-shadow: 1px 1px 4px;
         li {
             margin: 1.6rem;
             display: flex;
