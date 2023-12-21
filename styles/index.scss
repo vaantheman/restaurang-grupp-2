@@ -1,8 +1,10 @@
 @use 'global';
-@use 'card';
-@use 'cartDisplay';
-@use 'search';
 @use 'layout';
 @use 'buttons';
+@use 'card';
+@use 'cartDisplay';
+@use 'content';
+@use 'search';
+@use 'utils'; // put last for overrides
 
 /*# sourceMappingURL=style.css.map */
