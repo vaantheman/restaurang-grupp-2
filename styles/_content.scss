@@ -8,12 +8,14 @@
 	overflow: hidden;
 
 	&__heading {
-		font-size: 3rem;
+		font-size: 1.4rem;
+		padding: 1rem;
 	}
 
 	&__text {
 		letter-spacing: 1px;
-		line-height: 25px;
+		line-height: 1.2;
 		font-size: 1.2rem;
+		padding: 1rem;
 	}
 }
