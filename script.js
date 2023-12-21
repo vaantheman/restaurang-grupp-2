@@ -1,4 +1,4 @@
-import { setUpCategoriesButtons, setUpConfirmOrderButton } from './script/buttons.js';
+import { setUpCategoriesButtons, setUpConfirmOrderButton, setUpToMenuButton } from './script/buttons.js';
 import { createItemCards } from './script/cards.js';
 import { cartModal } from './script/cartDisplay.js';
 import { menu } from './script/menu.js';
@@ -12,6 +12,7 @@ cartModal();
 setUpSearch();
 setUpConfirmOrderButton();
 setUpCategoriesButtons();
+setUpToMenuButton();
 createItemCards(searchForFeaturedItems(menu));
 
 /* DEBUGGING */
