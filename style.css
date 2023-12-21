@@ -1,4 +1,6 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,52 +12,74 @@ body {
 }
 
 #item-wrapper {
-  display: grid;
-  place-content: center;
-  grid-template-columns: repeat(3, 200px);
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 500px;
+  justify-content: center;
 }
 #item-wrapper .item-container {
-  border: 2px solid #000;
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 12px 8px;
+  box-shadow: 1px 1px 5px;
 }
 #item-wrapper .item-container img {
   width: 80px;
-  height: 100px;
+  height: 80px;
+}
+#item-wrapper .item-container .item-container__title {
+  font-size: 1rem;
+}
+#item-wrapper .item-container .item-container__dsc {
+  font-size: 13px;
+}
+#item-wrapper .item-container .item-container__price {
+  font-size: 12px;
+  font-weight: 600;
 }
 #item-wrapper .item-container--deleted {
   opacity: 0.5;
 }
 
-.open-modal {
-  width: 200px;
-  font-size: 2rem;
-}
-
 .modal-wrapper {
-  width: 400px;
+  width: 600px;
   height: 900px;
+  text-align: center;
 }
-.modal-wrapper span {
-  font-size: 2rem;
+.modal-wrapper h2 {
+  margin: 4rem 0 2rem;
 }
-.modal-wrapper .close-modal {
-  width: 100px;
+.modal-wrapper #items-list {
+  font-size: 14px;
+  box-shadow: 1px 1px 4px;
+}
+.modal-wrapper #items-list li {
+  margin: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px;
+  padding: 5px;
+}
+.modal-wrapper #items-list li .show-quantity {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+.modal-wrapper #total-price {
+  margin-top: 2rem;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .modal-wrapper::backdrop {
   backdrop-filter: blur(5px);
-}
-
-#items-list li {
-  outline: red dotted 2px;
-  margin-top: 15px;
 }
 
 #search-box {
@@ -65,6 +89,135 @@ body {
   width: 300px;
   box-sizing: border-box;
   font-size: 16px;
+  margin: 1rem;
 }
+
+.main-wrapper {
+  background: url(/img/background.png);
+  background-position: center;
+  background-size: contain;
+  height: 900px;
+}
+.main-wrapper .contain-wrapper {
+  background-color: rgba(255, 255, 255, 0.7803921569);
+  border-radius: 1.6rem;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.header h1 {
+  margin: 1.3rem;
+}
+
+#aboutUs h3 {
+  margin: 1rem;
+  font-size: 3rem;
+}
+#aboutUs p {
+  margin: 3rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 1.2rem;
+}
+
+.btn-selector {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.btn-selector button {
+  height: 2rem;
+  width: 5rem;
+  font-size: 1rem;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 14px;
+  border: transparent;
+  box-shadow: 0px 2px 5px;
+}
+
+.item-container__btn {
+  margin: 3px;
+  padding: 0 5px;
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 0px 1px 2px;
+}
+
+.open-modal {
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  width: 12rem;
+  height: 2.4rem;
+  border-radius: 14px;
+  border: transparent;
+  box-shadow: 0px 2px 5px;
+}
+
+.close-modal {
+  position: absolute;
+  width: 50px;
+  font-size: 2rem;
+  right: 10px;
+  top: 10px;
+  border: transparent;
+  background: transparent;
+}
+
+.close-modal:hover {
+  color: #9d0707;
+  scale: 1.2;
+  background: transparent;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #9d0707;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 50px;
+  left: 25%;
+  width: 200px;
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 14px;
+  border: transparent;
+  box-shadow: 0px 2px 5px;
+}
+
+.decrement-btn,
+.increment-btn {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  border: transparent;
+  box-shadow: 0 0 1px;
+}
+
+.menuBtn {
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  width: 12rem;
+  height: 2.4rem;
+  border-radius: 14px;
+  border: transparent;
+  box-shadow: 0px 2px 5px;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
