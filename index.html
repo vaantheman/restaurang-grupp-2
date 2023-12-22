@@ -1,72 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <script src="script.js" type="module" defer></script>
-        <link rel="stylesheet" href="style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-    </head>
 
-    <body>
-        <dialog data-modal class="modal-wrapper">
-            <h2>Your Order</h2>
-            <ul id="items-list"></ul>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<script src="script.js" type="module" defer></script>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-            <span id="total-price"></span>
-            <button data-close-modal class="close-modal"><i class="fa-solid fa-xmark"></i></button>
-            <button id="confirmOrder" class="confirm-btn">Place Order</button>
-        </dialog>
+<body>
+	<dialog data-modal class="modal-wrapper">
+		<h2>Your Order</h2>
+		<ul id="items-list"></ul>
 
-        <main id="main" class="main-wrapper">
-            <header class="header">
-                <h1>Rök & Rull BBQ</h1>
-            </header>
+		<span id="total-price"></span>
+		<button data-close-modal class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+		<button id="confirmOrder" class="confirm-btn">Place Order</button>
+	</dialog>
 
-            <div id="cards" class="contain-wrapper hidden">
-                <div class="search-container">
-                    <input type="text" id="search-box" placeholder="Search..." />
-                </div>
-                <div class="btn-selector">
-                    <button id="Starter">Starter</button>
-                    <button id="Food">Food</button>
-                    <button id="Drinks">Drinks</button>
-                    <button id="Desserts">Desserts</button>
-                </div>
-                <div id="item-wrapper"></div>
-                <button data-open-modal class="open-modal">Your Order</button>
-            </div>
+	<div class="main-wrapper">
+		<header class="header">
+			<h1>Rök & Rull BBQ</h1>
+		</header>
 
-            <div id="aboutUs" class="contain-wrapper hidden">
-                <h3 class="contain-wrapper__title">Om oss</h3>
-                <p class="contain-wrapper__text">
-                    Välkommen till Taverna! Vår passion är att skapa en autentisk BBQ-upplevelse,
-                    där varje måltid är en hyllning till rökiga smaker och traditionella
-                    tillagningsmetoder. Vårt kök är fyllt av en blandning av hemligheter och kärlek
-                    till konsten att grilla. Oavsett om du älskar saftiga revben, långsamt tillagad
-                    pulled pork eller smakrik brisket, kommer du att uppleva äkta värme i varje
-                    tugga. På Taverna handlar det inte bara om mat; det handlar om gemenskap, glädje
-                    och en smakresa genom BBQ-traditioner. Vi ser fram emot att välkomna dig till
-                    vårt bord och dela dessa smakupplevelser med dig.
-                </p>
-                <button class="menuBtn">Back To Menu</button>
-            </div>
+		<main class="content">
+			<h2 class="content__heading">Välkommen!</h2>
+			<div class="search-container hidden">
+				<input type="text" id="search-box" placeholder="Search..." />
+			</div>
+			<div id="categories" class="btn-selector hidden">
+				<button id="starters">Starters</button>
+				<button id="bbqs">BBQ</button>
+				<button id="drinks">Drinks</button>
+				<!-- <button id="Desserts">Desserts</button> -->
+			</div>
+			<p class="content__text">Kocken rekommenderar:</p>
+			<div id="item-wrapper" class="item-wrapper"></div>
+		</main>
+		<footer class="footer">
+			<button id="to-menu-btn" class="menu-btn">Till menyn</button>
+			<button data-open-modal class="open-modal hidden">Your Order</button>
+		</footer>
+	</div>
+</body>
 
-            <div id="welcome" class="contain-wrapper hidden">
-                <h3 class="contain-wrapper__title">Välkommen</h3>
-                <p class="contain-wrapper__text">Kocken rekommenderar</p>
-                <p class="contain-wrapper__text">Bartendern rekommenderar</p>
-                <button class="menuBtn">Back To Menu</button>
-            </div>
-        </main>
-    </body>
 </html>
 
 <!-- <div class="item-container">

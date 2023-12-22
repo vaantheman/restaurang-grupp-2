@@ -1,4 +1,4 @@
-import { addToCartButton } from './addToCartBtn.js';
+import { setUpAddToCartButton } from "./buttons.js";
 
 const generateImgElement = (img) => {
     const imgElement = document.createElement('img');
@@ -40,7 +40,7 @@ export const createItemCards = (foodList) => {
         itemContainer.appendChild(generateInfoElement(item.dsc));
         itemContainer.appendChild(generatePriceElement(`${item.price} kr`));
 
-        itemContainer.appendChild(addToCartButton(item));
+        itemContainer.appendChild(setUpAddToCartButton(item));
 
         itemWrapper.appendChild(itemContainer);
     });

@@ -1,9 +1,8 @@
-#item-wrapper {
+.item-wrapper {
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    height: 500px;
     justify-content: center;
 
     // margin: 15px 0px;
