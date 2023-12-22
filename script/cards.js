@@ -42,7 +42,7 @@ export const createItemCards = (foodList) => {
         itemContainer.appendChild(generateInfoElement(item.country));
         itemContainer.appendChild(generatePriceElement(`${item.price} kr`));
 
-        itemContainer.appendChild(setUpAddToCartButton(item));
+        itemContainer.appendChild(setUpAddToCartButton(item, itemContainer));
 
 				if(getAdminStatus()){
 					generateAdminElements(item, itemContainer);

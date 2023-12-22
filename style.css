@@ -127,7 +127,8 @@ button:hover {
   justify-content: center;
   max-width: 800px;
 }
-.item-wrapper .item-container {
+
+.item-container {
   min-width: 160px;
   flex: 1;
   border-radius: 10px;
@@ -141,23 +142,26 @@ button:hover {
   box-shadow: 1px 1px 5px;
   gap: 4px;
 }
-.item-wrapper .item-container img {
+.item-container img {
   width: 80px;
   height: 80px;
   border-radius: 20px;
 }
-.item-wrapper .item-container .item-container__title {
+.item-container__title {
   font-size: 1rem;
 }
-.item-wrapper .item-container .item-container__dsc {
+.item-container__dsc {
   font-size: 13px;
 }
-.item-wrapper .item-container .item-container__price {
+.item-container__price {
   font-size: 12px;
   font-weight: 600;
 }
-.item-wrapper .item-container--deleted {
+.item-container--deleted {
   opacity: 0.5;
+}
+.item-container--selected {
+  box-shadow: 0 0 0 5px yellowgreen;
 }
 
 .modal-wrapper {

@@ -29,13 +29,14 @@ export const setUpCategoriesButtons = () => {
     drinks.addEventListener('click', () => handleCategoryClick('drinks'));
 };
 
-export const setUpAddToCartButton = (item) => {
+export const setUpAddToCartButton = (item, element) => {
     const addToCartBtn = document.createElement('button');
     addToCartBtn.className = 'item-container__btn';
     addToCartBtn.innerText = 'Add To Cart';
 
     addToCartBtn.addEventListener('click', () => {
         addToLocalStorage(item);
+				element.classList.add('item-container--selected');
     });
 
     return addToCartBtn;
