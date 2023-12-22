@@ -1,4 +1,4 @@
-import { setUpAddToCartButton } from "./buttons.js";
+import { setUpAddToCartButton } from './buttons.js';
 
 const generateImgElement = (img) => {
     const imgElement = document.createElement('img');
