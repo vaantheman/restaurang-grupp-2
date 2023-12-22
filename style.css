@@ -30,7 +30,7 @@ body {
 }
 
 .btn-selector {
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
@@ -125,10 +125,14 @@ button:hover {
   overflow-y: scroll;
   scroll-behavior: smooth;
   justify-content: center;
+  max-width: 800px;
 }
-.item-wrapper .item-container {
-  width: 180px;
-  height: 200px;
+
+.item-container {
+  min-width: 160px;
+  flex: 1;
+  border-radius: 10px;
+  padding: 4px 2px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -136,23 +140,28 @@ button:hover {
   text-align: center;
   margin: 12px 8px;
   box-shadow: 1px 1px 5px;
+  gap: 4px;
 }
-.item-wrapper .item-container img {
+.item-container img {
   width: 80px;
   height: 80px;
+  border-radius: 20px;
 }
-.item-wrapper .item-container .item-container__title {
+.item-container__title {
   font-size: 1rem;
 }
-.item-wrapper .item-container .item-container__dsc {
+.item-container__dsc {
   font-size: 13px;
 }
-.item-wrapper .item-container .item-container__price {
+.item-container__price {
   font-size: 12px;
   font-weight: 600;
 }
-.item-wrapper .item-container--deleted {
+.item-container--deleted {
   opacity: 0.5;
+}
+.item-container--selected {
+  box-shadow: 0 0 0 5px yellowgreen;
 }
 
 .modal-wrapper {
@@ -207,6 +216,7 @@ button:hover {
   line-height: 1.2;
   font-size: 1.2rem;
   padding: 1rem;
+  overflow: auto;
 }
 
 #search-box {
@@ -216,7 +226,7 @@ button:hover {
   width: 300px;
   box-sizing: border-box;
   font-size: 16px;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .hidden {
