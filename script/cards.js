@@ -1,3 +1,4 @@
+import { generateAdminElements, getAdminStatus } from './admin.js';
 import { setUpAddToCartButton } from './buttons.js';
 
 const generateImgElement = (img) => {
@@ -41,6 +42,10 @@ export const createItemCards = (foodList) => {
         itemContainer.appendChild(generatePriceElement(`${item.price} kr`));
 
         itemContainer.appendChild(setUpAddToCartButton(item));
+
+				if(getAdminStatus()){
+					generateAdminElements(item, itemContainer);
+				}
 
         itemWrapper.appendChild(itemContainer);
     });

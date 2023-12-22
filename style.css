@@ -151,6 +151,9 @@ button:hover {
   font-size: 12px;
   font-weight: 600;
 }
+.item-wrapper .item-container--deleted {
+  opacity: 0.5;
+}
 
 .modal-wrapper {
   height: auto;
