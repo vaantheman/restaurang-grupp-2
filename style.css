@@ -139,6 +139,7 @@ button:hover {
   text-align: center;
   margin: 12px 8px;
   box-shadow: 1px 1px 5px;
+  gap: 4px;
 }
 .item-wrapper .item-container img {
   width: 80px;
